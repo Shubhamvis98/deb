@@ -1,0 +1,62 @@
+Package: hijacker
+Version: 1.0-alpha
+Architecture: all
+Maintainer: Shubham Vishwakarma <ShubhamVis98>
+Installed-Size: 116
+Depends: python3, python3-psutil, python3-pyperclip, aircrack-ng, xclip
+Homepage: https://www.fossfrog.in/
+Priority: optional
+Section: net
+Filename: pool/main/h/hijacker/hijacker_1.0-alpha_all.deb
+Size: 8660
+SHA256: 1fd699791c3337687c24cf2aefa1bc838ccbb458a0d59e3706a1ac7656d61365
+SHA1: d1a81d3d96f10ad96e9c83838b5b0e1749fb8912
+MD5sum: 04e54c46ddf9a06bb06842126860d4c8
+Description: wireless WEP/WPA cracking utilities
+ hijacker is an app inspired by android's hijacker app for cracking,
+ deauth and for packet capturing. It uses aircrack-ng as backend.
+
+Package: nethunter
+Version: 1.6-alpha
+Architecture: all
+Maintainer: Shubham Vishwakarma <ShubhamVis98>
+Installed-Size: 152
+Depends: python3, python3-psutil, macchanger, mdk4, gir1.2-notify-0.7
+Homepage: https://www.fossfrog.in/
+Priority: optional
+Section: net
+Filename: pool/main/n/nethunter/nethunter_1.6-alpha_all.deb
+Size: 269628
+SHA256: 91f302627ee81408b79ae13c990546ab8da84c66e4a68e85e2105fd60c0b0849
+SHA1: 66fb808e95c121457910a6c8f0249d3dd7f95adc
+MD5sum: ebbe592b2a092812c00e0a050964f247
+Description: An unofficial clone of Android's NetHunter app
+ for GNU/Linux Operating Systems and Phones. Initially built
+ for PinePhone.
+ .
+ Features Implemented:
+ - Keyboard and Mouse Input Working
+ - USB Mass Storage Working
+ - USB Tethering
+ - Ducky [A minimal Rucky-like implementation]
+ - MAC Changer GUI Added
+ - Deauther
+ - Custom Commands
+ - BadBT (Bluetooth Ducky)
+
+Package: network-scanner
+Version: 1.0
+Architecture: all
+Maintainer: Shubham Vishwakarma <ShubhamVis98>
+Installed-Size: 68
+Depends: nmap
+Homepage: https://www.fossfrog.in/
+Priority: optional
+Section: net
+Filename: pool/main/n/network-scanner/network-scanner_1.0_all.deb
+Size: 70996
+SHA256: b05daa02ca9a82e35b8a00c816405cf1bcb42e95f90866b1275ad87864556905
+SHA1: 642488fd7209fd2ff8699da638954e5942401e4c
+MD5sum: 46ee33308b89b0fc4c40a18fe14f7eda
+Description: An nmap front-end for Linux Phones.
+
