@@ -1,4 +1,4 @@
-# deb_repository
+# fossfrog's debian repository
 
 ## Adding repository to your debian distribution:
 ### Run below commands to do this automatically:
