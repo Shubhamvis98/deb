@@ -1,1 +1,71 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fossfrog's Debian Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+        pre {
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            background: #444;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #1e1e1e;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        ol li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>fossfrog's Debian Repository</h1>
+
+    <h2>Adding repository to your Debian distribution:</h2>
+    <h3>Run below commands to do this automatically:</h3>
+    <pre><code>sudo sh -c "$(curl -fsSL https://repo.fossfrog.in/setup.sh)"</code></pre>
+
+    <h3>or</h3>
+    <ol>
+        <li>Download <strong>"fossfrog.gpg"</strong> file and put under <strong>/etc/apt/trusted.gpg.d</strong></li>
+        <li>Create a file named <strong>"fossfrog.list"</strong> under <strong>/etc/apt/sources.list.d</strong> and put below content in the file:
+            <pre><code>deb https://repo.fossfrog.in stable main</code></pre>
+        </li>
+    </ol>
+
+    <h2>Apps present in my repository:</h2>
+    <ul>
+        <li>nethunter</li>
+        <li>network-scanner</li>
+        <li>hijacker</li>
+    </ul>
+</body>
+</html>
