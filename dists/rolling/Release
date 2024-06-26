@@ -1,47 +1,47 @@
 Origin: fossfrog
 Label: fossfrog
-Suite: stable
+Suite: fossfrog
 Codename: rolling
-Date: Mon, 24 Jun 2024 15:07:41 UTC
+Date: Wed, 26 Jun 2024 06:28:04 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: fossfrog's repo
 MD5Sum:
  029109f5db4d10d3b005ac69d2fdbb2e 2037 main/binary-amd64/Packages
  07b4eab017346787f2d4ade89926a815 1016 main/binary-amd64/Packages.gz
- f3ba59843eff0844b109a5847d972a2a 114 main/binary-amd64/Release
+ 96185cd5698ed69217ead8ee7c11c035 116 main/binary-amd64/Release
  029109f5db4d10d3b005ac69d2fdbb2e 2037 main/binary-arm64/Packages
  07b4eab017346787f2d4ade89926a815 1016 main/binary-arm64/Packages.gz
- 444f9cd45462cc08fd170ba156421b00 114 main/binary-arm64/Release
+ e88dbac496fd767c6551ee4b1f5081d2 116 main/binary-arm64/Release
  029109f5db4d10d3b005ac69d2fdbb2e 2037 main/binary-i386/Packages
  07b4eab017346787f2d4ade89926a815 1016 main/binary-i386/Packages.gz
- b1f56a97e00e36405d3ef8f6471ae50e 113 main/binary-i386/Release
+ 336f3431277da8cd39c1d0d35bacc553 115 main/binary-i386/Release
  029109f5db4d10d3b005ac69d2fdbb2e 2037 main/binary-armhf/Packages
  07b4eab017346787f2d4ade89926a815 1016 main/binary-armhf/Packages.gz
- 36101eace267c310c082239f8c94399f 114 main/binary-armhf/Release
+ 13bb5389c16b436eb34b8600470e76bb 116 main/binary-armhf/Release
 SHA1:
  a82dc51570f1f08504ff45074d0905fc1d6e5a6e 2037 main/binary-amd64/Packages
  f01d1c4045927bdc96297775a108826cabcb5f37 1016 main/binary-amd64/Packages.gz
- 10bb937772cc4f01541ad7536c92a59e9f23a0b5 114 main/binary-amd64/Release
+ 98e92dfea806a099ee6b6ddabd4e2df77d65fb90 116 main/binary-amd64/Release
  a82dc51570f1f08504ff45074d0905fc1d6e5a6e 2037 main/binary-arm64/Packages
  f01d1c4045927bdc96297775a108826cabcb5f37 1016 main/binary-arm64/Packages.gz
- 2b24c8f1b19b0c60e67e8e355ef0ba8d36881091 114 main/binary-arm64/Release
+ 42aa4992028275b8b4de9944aa02fb640e22ba22 116 main/binary-arm64/Release
  a82dc51570f1f08504ff45074d0905fc1d6e5a6e 2037 main/binary-i386/Packages
  f01d1c4045927bdc96297775a108826cabcb5f37 1016 main/binary-i386/Packages.gz
- e2cd838b70678cf00e08ba5b3f940a7cafcefcf8 113 main/binary-i386/Release
+ 192306d411bcb7811b5e875fa777bb0ca13336c3 115 main/binary-i386/Release
  a82dc51570f1f08504ff45074d0905fc1d6e5a6e 2037 main/binary-armhf/Packages
  f01d1c4045927bdc96297775a108826cabcb5f37 1016 main/binary-armhf/Packages.gz
- 790558c34da0bf7856c3a6b15e9ed4059fd1cb55 114 main/binary-armhf/Release
+ 9a9ad971f36572ba16b63b8c4fb55c3a141914cd 116 main/binary-armhf/Release
 SHA256:
  4d2206f504fc08e8eb4715aaef9aa37e539d1993c4a80909ded18d91342d2d43 2037 main/binary-amd64/Packages
  def31f7220b26fc95f0943664d49869edad6553f3d9fb838a5286c706d328edd 1016 main/binary-amd64/Packages.gz
- ce3f687d762d68fb7c96e2d719c46f467bba4749070b47a65b70d02d0c2e3fef 114 main/binary-amd64/Release
+ e73a67265fedf03bbc923d248288961eb65376cf1169f034eb47d5c3f52e65d5 116 main/binary-amd64/Release
  4d2206f504fc08e8eb4715aaef9aa37e539d1993c4a80909ded18d91342d2d43 2037 main/binary-arm64/Packages
  def31f7220b26fc95f0943664d49869edad6553f3d9fb838a5286c706d328edd 1016 main/binary-arm64/Packages.gz
- ba0abb4ee1d00744808ab45bb82685eb34c83079010534864999a805d83f0e1c 114 main/binary-arm64/Release
+ fd0c5d11c4a833c822033f8d141cd596d85eae6edc7e45020632b95eee69ddca 116 main/binary-arm64/Release
  4d2206f504fc08e8eb4715aaef9aa37e539d1993c4a80909ded18d91342d2d43 2037 main/binary-i386/Packages
  def31f7220b26fc95f0943664d49869edad6553f3d9fb838a5286c706d328edd 1016 main/binary-i386/Packages.gz
- 99a7d8d4f7d53d3fc5acc1801bb72680c42a0a4f12c14844a6468bd8a260d5b8 113 main/binary-i386/Release
+ 04d5a6db09a4db0d4f8d1d47ef42d71692e9c8c3eb344c5fe2e3e6467359d540 115 main/binary-i386/Release
  4d2206f504fc08e8eb4715aaef9aa37e539d1993c4a80909ded18d91342d2d43 2037 main/binary-armhf/Packages
  def31f7220b26fc95f0943664d49869edad6553f3d9fb838a5286c706d328edd 1016 main/binary-armhf/Packages.gz
- 136b8efba8f2e12adf29591d0ddf53d281e4de8909f280864f4d7df439be1cc1 114 main/binary-armhf/Release
+ f9982193fa33cc73d423fd91852470671a1ea86186f5c8add2627f6922560f98 116 main/binary-armhf/Release
