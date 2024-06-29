@@ -1,5 +1,5 @@
 Package: hijacker
-Version: 1.0-alpha
+Version: 1.1-alpha
 Architecture: all
 Maintainer: Shubham Vishwakarma <ShubhamVis98>
 Installed-Size: 116
@@ -7,11 +7,11 @@ Depends: python3, python3-psutil, python3-pyperclip, aircrack-ng, xclip
 Homepage: https://www.fossfrog.in/
 Priority: optional
 Section: net
-Filename: pool/main/h/hijacker/hijacker_1.0-alpha_all.deb
-Size: 8676
-SHA256: 989a690d147608619432a6d74df1ea1797eada5c4de34b27563167df61d8b4cd
-SHA1: 6331b3834cd4552321cfeda1b87f366e77ba51ac
-MD5sum: de3ba4b143fcb43801702e0ce0f21324
+Filename: pool/main/h/hijacker/hijacker_1.1-alpha_all.deb
+Size: 9260
+SHA256: 549b4a5a2c23bbd89bd6a1fdf8691f08f2b037199f66d841100999722f22bd71
+SHA1: 211b3db6e622fef6ce9fbb6a7cbf2f29223635bd
+MD5sum: a7bdbef5c1f360ca2eca420dbdb15630
 Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
