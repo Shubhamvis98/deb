@@ -9,9 +9,9 @@ Priority: optional
 Section: net
 Filename: pool/main/h/hijacker/hijacker_1.1-alpha_all.deb
 Size: 9260
-SHA256: 368ff71bed9f36e3505f5e22b6858b3edbcd18fd36020253de59206c38e7269a
-SHA1: c1fc4b34dee9ec914b775df3c07fc017a3405562
-MD5sum: de43bca8639f28fbd283182413f271b1
+SHA256: d32edf4e1072253169bda7e9f7e497a34abff24794f4478f98aa760754277fa2
+SHA1: 83a42506bfa5c5ccad87d1acd21d5f29db2b742f
+MD5sum: e492f89702b7c4d96341e3f66c427ac5
 Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
@@ -27,9 +27,9 @@ Priority: optional
 Section: net
 Filename: pool/main/n/nethunter/nethunter_1.6-alpha_all.deb
 Size: 18216
-SHA256: 4a6530f5c4ffd8dfde8b99e3fe3433b784268202e79e16714796665485d97b72
-SHA1: 343f13ecade13783b160fa39c2d02b5e604fd9d3
-MD5sum: 3c217a720dd4d03f917eada642ac9101
+SHA256: f1ba59258a11311e629782a6b875feeed278c6309b866bc7ea846214eed3bf96
+SHA1: de62986bcf81a2ebadd06fee5b8b62f801ccb7f6
+MD5sum: 48c1d1e07a7d969259c7063c5fab90ad
 Description: An unofficial clone of Android's NetHunter app
  for GNU/Linux Operating Systems and Phones. Initially built
  for PinePhone.
@@ -54,9 +54,9 @@ Homepage: https://www.fossfrog.in/
 Priority: optional
 Section: net
 Filename: pool/main/n/network-scanner/network-scanner_1.0_all.deb
-Size: 6504
-SHA256: ae525117f481ed30c11085427fdd6db584dc80fd75513e2613b860cfbd876b07
-SHA1: 3dbb8bdf995f5b79bdc13f9b6771e7586a763bb0
-MD5sum: 7fd153566394bb0930badc344d02252f
+Size: 6816
+SHA256: 62e4a0cb7fadf80fa25b63f7d269f3a9522436657bad2b9e49098ec86a22e744
+SHA1: 8efe300df137efc37da49fae47fdf8f5870c21e1
+MD5sum: 0c9050f2cba87e31e271fef8f6ae5541
 Description: An nmap front-end for Linux Phones.
 
