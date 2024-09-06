@@ -1,17 +1,17 @@
 Package: hijacker
-Version: 1.1-alpha
+Version: 1.2
 Architecture: all
 Maintainer: Shubham Vishwakarma <ShubhamVis98>
 Installed-Size: 116
-Depends: python3, python3-psutil, python3-pyperclip, aircrack-ng, xclip
+Depends: python3, python3-psutil, python3-pyperclip, aircrack-ng, xclip, macchanger
 Homepage: https://www.fossfrog.in/
 Priority: optional
 Section: net
-Filename: pool/main/h/hijacker/hijacker_1.1-alpha_all.deb
-Size: 9260
-SHA256: cc5dfaa961cf89049a665f0c876aa97374ae4491526d7fd140f09127e807a84b
-SHA1: c44549d14dbf9c242648cd79bcdbbeecbfffa2f2
-MD5sum: aaf2929504800a6551ddb01c666d564e
+Filename: pool/main/h/hijacker/hijacker_1.2_all.deb
+Size: 9944
+SHA256: e0f423cc9b3618532b5cba4e14c0c14f78bae1a104810e599d19256774628ba3
+SHA1: c61ac954e290819fc70a77b9a5a2e097b67e5708
+MD5sum: 39a45959205027ea8d2d2c1997852489
 Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
@@ -27,9 +27,9 @@ Priority: optional
 Section: net
 Filename: pool/main/n/nethunter/nethunter_1.7_all.deb
 Size: 18208
-SHA256: e9c8144120a4d1a34489f09f7cdeaa5db1268566f4adb1d56cc0d131bb6215a2
-SHA1: cc8a5d977a19273f0d50e4bf431fac24957a9aa2
-MD5sum: a77b730376b267943229dfb615ffb9bb
+SHA256: 294c94110ef3a1907b94a744e511f099edcbc3a91450455406a38e5aebf3c8ce
+SHA1: d4e6a31de59d908d8f46d989b4cc6568397e4f15
+MD5sum: acd1216f46df50876b7600be2b4f6bdb
 Description: An unofficial clone of Android's NetHunter app
  for GNU/Linux Operating Systems and Phones. Initially built
  for PinePhone.
@@ -55,8 +55,8 @@ Priority: optional
 Section: net
 Filename: pool/main/n/network-scanner/network-scanner_1.0_all.deb
 Size: 6816
-SHA256: fd53119898e6781ef672e284c6651f39f1b1ab37b3b68c21635cdae24d1e2593
-SHA1: 77261d7c1e7d231f902d47940fa132e9de4e7020
-MD5sum: dd5f72efd720c7e4280076d3832be8fb
+SHA256: bdf497cc3e5f8df287f0e786a3bdd7a3e0b070a782e2cd5c1f19adb313ab851c
+SHA1: d710f68b5ef647dd9a6e3c12d26049cd7af55b89
+MD5sum: cd83d065b0c022f973980333986a4a25
 Description: An nmap front-end for Linux Phones.
 
