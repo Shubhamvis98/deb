@@ -17,7 +17,7 @@ Description: wireless WEP/WPA cracking utilities
  deauth and for packet capturing. It uses aircrack-ng as backend.
 
 Package: nethunter
-Version: 1.7
+Version: 1.8
 Architecture: all
 Maintainer: Shubham Vishwakarma <ShubhamVis98>
 Installed-Size: 152
@@ -25,11 +25,11 @@ Depends: python3, python3-bluez, python3-psutil, macchanger, mdk4, gir1.2-notify
 Homepage: https://www.fossfrog.in/
 Priority: optional
 Section: net
-Filename: pool/main/n/nethunter/nethunter_1.7_all.deb
-Size: 18208
-SHA256: 294c94110ef3a1907b94a744e511f099edcbc3a91450455406a38e5aebf3c8ce
-SHA1: d4e6a31de59d908d8f46d989b4cc6568397e4f15
-MD5sum: acd1216f46df50876b7600be2b4f6bdb
+Filename: pool/main/n/nethunter/nethunter_1.8_all.deb
+Size: 18900
+SHA256: 63be875eaa773596710ed37df8a26c3cbe345c9d0ce850eed1ed7474b0993d69
+SHA1: b23d5ba21c2d7175c8be4f9767df479ce47d5188
+MD5sum: f1ef1488b9eafba2a5133646840ec95d
 Description: An unofficial clone of Android's NetHunter app
  for GNU/Linux Operating Systems and Phones. Initially built
  for PinePhone.
