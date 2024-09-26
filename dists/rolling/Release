@@ -2,7 +2,7 @@ Origin: fossfrog
 Label: fossfrog
 Suite: fossfrog
 Codename: rolling
-Date: Sat, 14 Sep 2024 08:06:33 UTC
+Date: Thu, 26 Sep 2024 16:18:48 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: fossfrog's repo
