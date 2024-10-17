@@ -9,7 +9,7 @@ sudo sh -c "$(curl -fsSL https://repo.fossfrog.in/setup.sh)"
 1. Download **"fossfrog.gpg"** file and put under **/etc/apt/trusted.gpg.d**
 2. Create a file named **"fossfrog.list"** under **/etc/apt/sources.list.d** and put below content in the file:
 ```
-deb https://repo.fossfrog.in stable main
+deb https://repo.fossfrog.in rolling main
 ```
 
 ## Apps present in my repository:
