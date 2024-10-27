@@ -9,12 +9,69 @@ Priority: optional
 Section: net
 Filename: pool/main/h/hijacker/hijacker_1.2_all.deb
 Size: 9944
-SHA256: e0f423cc9b3618532b5cba4e14c0c14f78bae1a104810e599d19256774628ba3
-SHA1: c61ac954e290819fc70a77b9a5a2e097b67e5708
-MD5sum: 39a45959205027ea8d2d2c1997852489
+SHA256: 428f5d0a5c046e198ff015cef6205e80700704bb86a287ba0bad4b23d6cbe833
+SHA1: 24c59eeb5d3af3ae0d7015485afaeaeede2a078a
+MD5sum: dd71d4147017421f1f4f4b29212c39ae
 Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
+
+Package: linux-headers-6.6.58-sdm845-nh
+Source: linux-upstream
+Version: 6.6.58-4
+Architecture: arm64
+Maintainer: root <root@fossfrog>
+Installed-Size: 52032
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.58-sdm845-nh_6.6.58-4_arm64.deb
+Size: 8650148
+SHA256: 4b5d28e9a76de8a93632c81f8d8833fe4dc373bad7c4b70df1d0abc72cb9069d
+SHA1: 66eba02819b616e46023f3e4c45b560946ead391
+MD5sum: 65630ccfdc51f534e361326695975dbc
+Description: Linux kernel headers for 6.6.58-sdm845-nh on arm64
+ This package provides kernel header files for 6.6.58-sdm845-nh on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.6.58-sdm845-nh
+Source: linux-upstream
+Version: 6.6.58-4
+Architecture: arm64
+Maintainer: root <root@fossfrog>
+Installed-Size: 39241
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.6.58-sdm845-nh_6.6.58-4_arm64.deb
+Size: 19282172
+SHA256: 9e53c4dc6251b238ef2a3350a9adde8c5c946f8370c7d1b5ba12cd9a0642d98d
+SHA1: 1884910c0a0cbc3c8e238f369596ef3ab3c3ea95
+MD5sum: 9b0ecfb3018f0165aa1dbb8a9360ad51
+Description: Linux kernel, version 6.6.58-sdm845-nh
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.6.58-sdm845-nh.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.6.58-4
+Architecture: arm64
+Maintainer: root <root@fossfrog>
+Installed-Size: 6716
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.6.58-4_arm64.deb
+Size: 1295724
+SHA256: 38a9ffdeb0f5d7694e6c5eef92f98b6c5b9ea495df715a6c55c578716f057b30
+SHA1: c7960d1a198588c9472984a00764c74661b42ace
+MD5sum: a89757994aa77901dfeb224805db7a0d
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
 
 Package: nethunter
 Version: 1.8
@@ -27,9 +84,9 @@ Priority: optional
 Section: net
 Filename: pool/main/n/nethunter/nethunter_1.8_all.deb
 Size: 18900
-SHA256: 63be875eaa773596710ed37df8a26c3cbe345c9d0ce850eed1ed7474b0993d69
-SHA1: b23d5ba21c2d7175c8be4f9767df479ce47d5188
-MD5sum: f1ef1488b9eafba2a5133646840ec95d
+SHA256: da5cb9a4bf0fce0ce587438c07d9186e3a39cf489b62a1d4ead3d15a24116747
+SHA1: fb490b184055f03eae214b3be505978edbf9b896
+MD5sum: 3ef1acb0c2a515e4ba0efdf218ee78bd
 Description: An unofficial clone of Android's NetHunter app
  for GNU/Linux Operating Systems and Phones. Initially built
  for PinePhone.
@@ -55,8 +112,28 @@ Priority: optional
 Section: net
 Filename: pool/main/n/network-scanner/network-scanner_1.0_all.deb
 Size: 6816
-SHA256: bdf497cc3e5f8df287f0e786a3bdd7a3e0b070a782e2cd5c1f19adb313ab851c
-SHA1: d710f68b5ef647dd9a6e3c12d26049cd7af55b89
-MD5sum: cd83d065b0c022f973980333986a4a25
+SHA256: 19888223d0314912ca63bc0a3c891040c808035d4f347a814b073d4308fc0000
+SHA1: cd736726d870e1081bdb004471d7d02a95cad8e2
+MD5sum: a7218e2cabdef0f8131b111f75f98adf
 Description: An nmap front-end for Linux Phones.
+
+Package: sdm845-nh-support
+Source: qcom-support
+Version: 0.2.2
+Architecture: all
+Maintainer: Shubham Vishwakarma <shubhamvis98@nethunter.com>
+Installed-Size: 9
+Depends: linux-image-6.6.58-sdm845-nh, qcom-support-common
+Conflicts: sdm845-support
+Homepage: https://fossfrog.in
+Priority: optional
+Section: metapackages
+Filename: pool/main/q/qcom-support/sdm845-nh-support_0.2.2_all.deb
+Size: 884
+SHA256: b03f87f90bf1956f4ca8bd0b14bab8defe009fe9e067b4085fdb753a6479f13e
+SHA1: 427d8bfcc9ce563d4a7318135147ccd81d342911
+MD5sum: d5c0ddc29a2e9ab948973057984106ac
+Description: Hardware support packages for SDM845 devices with nethunter kernel.
+ This metapackage pulls in all packages needed to run on devices based
+ on the SDM845 SoC.
 
