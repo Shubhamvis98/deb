@@ -119,7 +119,7 @@ Description: An nmap front-end for Linux Phones.
 
 Package: sdm845-support
 Source: qcom-support
-Version: 0.2.2
+Version: 1.2.5
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@nethunter.com>
 Installed-Size: 9
@@ -127,11 +127,11 @@ Depends: linux-image-6.6.58-sdm845-nh, qcom-support-common
 Homepage: https://fossfrog.in
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sdm845-support_0.2.2_all.deb
-Size: 876
-SHA256: 583f897194195a1b00e9ccad46344104dc7c5c214cddf8ca1b263df8edbea415
-SHA1: b28ac7c703e61f8a5c8162ce296da015ba647737
-MD5sum: 990456a5936485ec93a1d2d7eb1aa475
+Filename: pool/main/q/qcom-support/sdm845-support_1.2.5_all.deb
+Size: 872
+SHA256: c7c16ac3b2953e90d3bf21f9b193658196465f2fc7726d49fb9c0a578bccabea
+SHA1: c9c5ba295176b706d08d79c5008109830753bb45
+MD5sum: dd7cfae18225f4ee8385f97219e2d363
 Description: Hardware support packages for SDM845 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SDM845 SoC.
