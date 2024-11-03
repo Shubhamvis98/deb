@@ -9,9 +9,9 @@ Priority: optional
 Section: net
 Filename: pool/main/h/hijacker/hijacker_1.2_all.deb
 Size: 9944
-SHA256: f37d48a7f4b7f96c685f86d5326c7966fc716efb000c635e58bf04644fc083cf
-SHA1: 7bfc623e5917c121fa279f54ee62349228bf0bc2
-MD5sum: dd6f987a8bfd9bd2305e98fdf6f4a6e0
+SHA256: 2f17902da3175c6894d27e7c28b3a8bf0fb68431402fb073aa8756774691d1a4
+SHA1: 740472e3e1b89808416696b74c6d3971b1910bf7
+MD5sum: cc3164363dd8e14c66aab38708124d9c
 Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
@@ -84,9 +84,9 @@ Priority: optional
 Section: net
 Filename: pool/main/n/nethunter/nethunter_1.8_all.deb
 Size: 18900
-SHA256: f85ff94305f89ae4e5e9e213fb502d74e2aea2972c0db1a5a7d2329da0f3060b
-SHA1: adbaf68f9c5e67ecfe9cecccb4594c45dcdcb438
-MD5sum: 04417e39918ae103dcdef7169dd6a3ab
+SHA256: 2780a3a8a51afd527047e51ccf96b252c0b66c56495c292e5d3a97405b743a9e
+SHA1: 77c1d45605c884417909b848355994551e0deaed
+MD5sum: 80e89ae059d8defca34cc690c4c1a9a8
 Description: An unofficial clone of Android's NetHunter app
  for GNU/Linux Operating Systems and Phones. Initially built
  for PinePhone.
@@ -112,27 +112,26 @@ Priority: optional
 Section: net
 Filename: pool/main/n/network-scanner/network-scanner_1.0_all.deb
 Size: 6816
-SHA256: 7ace43c588fa55d5de6623e7d1d6d38426c9db19a71e361312a56aa1f14202b9
-SHA1: c39cbc46f27df88c73b10e90a2e3fffd3e380e80
-MD5sum: 7378d113d7a99c31393c984cee85f9ec
+SHA256: 1d878f9ad542dea35611187d608fccd38780a65d136d934a8ee6b3f44752dc66
+SHA1: 008e58607ef0eaeaf85476464207d10362c7be47
+MD5sum: 11f74d188440a71610dc9e81fbd428b0
 Description: An nmap front-end for Linux Phones.
 
-Package: sdm845-nh-support
+Package: sdm845-support
 Source: qcom-support
 Version: 0.2.2
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@nethunter.com>
 Installed-Size: 9
 Depends: linux-image-6.6.58-sdm845-nh, qcom-support-common
-Conflicts: sdm845-support
 Homepage: https://fossfrog.in
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sdm845-nh-support_0.2.2_all.deb
-Size: 888
-SHA256: 9e1cdd3985d2398a13e2b9fdfb66bebe7ce45bb324326a59b724b794def5dfbe
-SHA1: 749389aae4a549804807d18affbc84dac7763a85
-MD5sum: 77873f8097974fc2dba7ad67f7975342
+Filename: pool/main/q/qcom-support/sdm845-support_0.2.2_all.deb
+Size: 876
+SHA256: 583f897194195a1b00e9ccad46344104dc7c5c214cddf8ca1b263df8edbea415
+SHA1: b28ac7c703e61f8a5c8162ce296da015ba647737
+MD5sum: 990456a5936485ec93a1d2d7eb1aa475
 Description: Hardware support packages for SDM845 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SDM845 SoC.
