@@ -79,25 +79,3 @@ Description: Hardware support packages for SDM845 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SDM845 SoC.
 
-Package: sunxi-support
-Version: 0.3.2
-Architecture: all
-Maintainer: Arnaud Ferraris <aferraris@debian.org>
-Installed-Size: 9
-Depends: eg25-manager, firmware-ov5640, firmware-realtek, linux-image-6.6-sunxi64, mobian-pinephone-tweaks, mobian-tweaks-common, mobile-usb-networking, systemd-zram-generator, u-boot-menu
-Breaks: pinephone-support (<< 0.3.0~), pinetab-support (<< 0.3.0~)
-Replaces: pinephone-support (<< 0.3.0~), pinetab-support (<< 0.3.0~)
-Homepage: https://salsa.debian.org/Mobian-team/devices/sunxi-support
-Priority: optional
-Section: metapackages
-Filename: pool/main/s/sunxi-support/sunxi-support_0.3.2_all.deb
-Size: 1972
-SHA256: 6fbd42f704d2cd440174566255b07392d22bf063a073fd6bae19d57957f5a950
-SHA1: cf3e1cbb77320a8929c74ba2df100b6a9ab33422
-MD5sum: 16ef2d7b192a3dba6727c87ce8da31da
-Description: Hardware support metapackage for Allwinner-based devices
- This metapackage aims at easing hardware support by depending on all
- packages needed/useful for Allwinner-based devices:
-   * PINE64 PinePhone
-   * PINE64 PineTab
-
