@@ -79,6 +79,25 @@ Description: Hardware support packages for SDM845 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SDM845 SoC.
 
+Package: sm7325-support
+Source: qcom-support
+Version: 1.0.0
+Architecture: all
+Maintainer: Shubham Vishwakarma <shubhamvis98@nethunter.com>
+Installed-Size: 9
+Depends: linux-image-6.9.0-sm7325, qcom-support-common
+Homepage: https://fossfrog.in
+Priority: optional
+Section: metapackages
+Filename: pool/main/q/qcom-support/sm7325-support_1.0.0_all.deb
+Size: 868
+SHA256: 2915171c461e00e598ad3e596bc5a45054d881ab234dfc466833bae779b0b8a1
+SHA1: 81a613e6b971c8846b4e3c530a0a9ff986fde120
+MD5sum: 428be53da7009383e6293061af56f11b
+Description: Hardware support packages for SM7325 devices with nethunter kernel.
+ This metapackage pulls in all packages needed to run on devices based
+ on the SM7325 SoC.
+
 Package: sunxi-support
 Version: 0.3.2
 Architecture: all
