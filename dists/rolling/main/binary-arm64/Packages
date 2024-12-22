@@ -120,10 +120,10 @@ Homepage: https://www.fossfrog.in/
 Priority: optional
 Section: net
 Filename: pool/main/n/nethunter/nethunter_1.9.1_all.deb
-Size: 18916
-SHA256: dce62062cd51091f0ce218eee480f2a86cd6adead8898862e416b1ce29861eca
-SHA1: 4acbbfa21f866faac8d0b30de2cf009dffa66164
-MD5sum: 177f5da31a11b2d112ad6054830ec341
+Size: 18912
+SHA256: ceaaa04de5ccb6364051840bc321fcb4c45c8cef259231f6f1f3b26cfaaf3044
+SHA1: 14875409af0a3c8726bd441bc782082d72dcf8a4
+MD5sum: b00598c02e7b38a6ecffab47394fd72e
 Description: An unofficial clone of Android's NetHunter app
  for GNU/Linux Operating Systems and Phones. Initially built
  for PinePhone.
