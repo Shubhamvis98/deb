@@ -37,18 +37,18 @@ Description: Linux kernel headers for 6.6.58-sdm845-nh on arm64
 
 Package: linux-headers-6.9.0-sm7325
 Source: linux-upstream
-Version: 6.9.0-6
+Version: 6.9.0-2
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 51380
+Installed-Size: 51083
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.9.0-sm7325_6.9.0-6_arm64.deb
-Size: 8627140
-SHA256: 98b0acc5d3e27772dc78517eae5c6fc57e3a630d5553184a58a3ad3756c36675
-SHA1: dc40286e5cf43e5b7db1d69deda83de33b6b08ed
-MD5sum: 4a11bb56bdd48dd91304b7620945f729
+Filename: pool/main/l/linux-upstream/linux-headers-6.9.0-sm7325_6.9.0-2_arm64.deb
+Size: 8585020
+SHA256: dc01cd6cd5fd3e83dab46833ea74f34adbdafbb86d2e36bdf5ec0e3728caaa1e
+SHA1: d3abcfee5297b8c5eb4c6b5c15dc79113d7b6ae9
+MD5sum: 5625c380cbdff063d68985a459f67920
 Description: Linux kernel headers for 6.9.0-sm7325 on arm64
  This package provides kernel header files for 6.9.0-sm7325 on arm64
  .
@@ -74,18 +74,18 @@ Description: Linux kernel, version 6.6.58-sdm845-nh
 
 Package: linux-image-6.9.0-sm7325
 Source: linux-upstream
-Version: 6.9.0-6
+Version: 6.9.0-2
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 31682
+Installed-Size: 31723
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.9.0-sm7325_6.9.0-6_arm64.deb
-Size: 10379996
-SHA256: 657b9bf3d24d27cde13b54a73a004336f1681aa26340152d5c6016fc87a96131
-SHA1: 94d5fddff3046afd2be7918d0e7099fb77d8efd7
-MD5sum: 1f7193379cf7c9fa075540d0d260cc4b
+Filename: pool/main/l/linux-upstream/linux-image-6.9.0-sm7325_6.9.0-2_arm64.deb
+Size: 10378280
+SHA256: 46a103bee553934d7a5aa7f0439b8f1a52fde90d103ee423047e23aa54d8ab68
+SHA1: 8349bdbed07e6d1c7ee52d9bb2c1c2162858be87
+MD5sum: 16d9e649148a355b9a63e44299c11018
 Description: Linux kernel, version 6.9.0-sm7325
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.9.0-sm7325.

@@ -5,7 +5,7 @@ Origin: fossfrog
 Label: fossfrog
 Suite: fossfrog
 Codename: rolling
-Date: Sun, 05 Jan 2025 07:32:54 UTC
+Date: Sun, 05 Jan 2025 08:08:55 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: fossfrog's repo
@@ -13,8 +13,8 @@ MD5Sum:
  3a9158b159a3792c4b717bd0cc830c76 4460 main/binary-amd64/Packages
  62c67df1bda9705037466d4ba91b7bc9 1825 main/binary-amd64/Packages.gz
  96185cd5698ed69217ead8ee7c11c035 116 main/binary-amd64/Release
- 32eb4633646317adca5394ed42d614ce 7812 main/binary-arm64/Packages
- de876f14050e88899d3309658faaaf5d 2728 main/binary-arm64/Packages.gz
+ d42d95e6dbb5d61eebd30bb987c33c75 7812 main/binary-arm64/Packages
+ c74102cb2745a5e47452975afa8d465b 2736 main/binary-arm64/Packages.gz
  e88dbac496fd767c6551ee4b1f5081d2 116 main/binary-arm64/Release
  3a9158b159a3792c4b717bd0cc830c76 4460 main/binary-i386/Packages
  62c67df1bda9705037466d4ba91b7bc9 1825 main/binary-i386/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  1f3d32fedc8df47aff9ee5fb08d868d3ba8fc633 4460 main/binary-amd64/Packages
  c62ef94a440bebbcedb0172cefe2afcdfe567ec8 1825 main/binary-amd64/Packages.gz
  98e92dfea806a099ee6b6ddabd4e2df77d65fb90 116 main/binary-amd64/Release
- 3e514a68f7caca8807ebe0eac1e203b114a5d025 7812 main/binary-arm64/Packages
- 6d6000a02a16354c37ff7aab1fd06828c8e3c7ef 2728 main/binary-arm64/Packages.gz
+ b619041ce2834dca2b46d0853721496451906189 7812 main/binary-arm64/Packages
+ e2c5ea4c26706124affd01457d5f4b7359ac221d 2736 main/binary-arm64/Packages.gz
  42aa4992028275b8b4de9944aa02fb640e22ba22 116 main/binary-arm64/Release
  1f3d32fedc8df47aff9ee5fb08d868d3ba8fc633 4460 main/binary-i386/Packages
  c62ef94a440bebbcedb0172cefe2afcdfe567ec8 1825 main/binary-i386/Packages.gz
@@ -39,8 +39,8 @@ SHA256:
  d9872de075799102624b601b6c69bed0281e101eba4212e9a48491ef46b6f10f 4460 main/binary-amd64/Packages
  c578bc954ae24d95c7461d53ea10519296f3608cfd7885f1967e22b82cbb3f01 1825 main/binary-amd64/Packages.gz
  e73a67265fedf03bbc923d248288961eb65376cf1169f034eb47d5c3f52e65d5 116 main/binary-amd64/Release
- 11303d405f9a78ab7dae6336660ebf0b9c455165b539b7b6e046140a6264c62f 7812 main/binary-arm64/Packages
- 3bf9358f6b7eae77dff4a7669059a74c25ed3844afe532020abd7fdc095c2d15 2728 main/binary-arm64/Packages.gz
+ 829d909880df253eea34d4d684bc8cfe687e4fc313019901f5d407ceca6474f4 7812 main/binary-arm64/Packages
+ 58324f813ee34943bf2070645b19bc19cf168657d0dae66ed2581dad9e8383ab 2736 main/binary-arm64/Packages.gz
  fd0c5d11c4a833c822033f8d141cd596d85eae6edc7e45020632b95eee69ddca 116 main/binary-arm64/Release
  d9872de075799102624b601b6c69bed0281e101eba4212e9a48491ef46b6f10f 4460 main/binary-i386/Packages
  c578bc954ae24d95c7461d53ea10519296f3608cfd7885f1967e22b82cbb3f01 1825 main/binary-i386/Packages.gz
@@ -50,15 +50,15 @@ SHA256:
  f9982193fa33cc73d423fd91852470671a1ea86186f5c8add2627f6922560f98 116 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEC7I6STX3HZWc3PHGY1DsZ2Kc8xsFAmd6NacACgkQY1DsZ2Kc
-8xtTbgv+OiolKWBEKdgC94S1nrEPPISLzVsQqoNWjRwL3Ki3CjKKIEQYj6udq39t
-DwlPw7wAOTp7pwIEN3+tO5q5HiwsiYqrR20z0K22UBsYD9kYi+c6MQIRpiv5eS/4
-hchkdAvVTOF0UVoELBhPk5B8bppcC9tYw+DAnFTCkv31s1M9THomUxIcmsFD1npV
-3Ih2qiOtJzY0eXdYyHGlPDUvZMdTCNvvPFNFRCWKoVJQpWervuCN0NfSXD9LP9+G
-P28uWoMPNFv6hjMkqIasUvmNB27l1A57Ja7dHDbPMP0b4RiqLBFmyR5iQJmJTAD8
-mkM1lychRlytpftpt+3UpZXhHkt7i8Hrw0P3dQZKrWvjRnppOhlbTyQyNc/MOjtK
-rqS24N01l4pnCASdmNFnYmAIdAlErL44Q7pNtt+ySE0Dlnt7fawqU5uiYv6F5Ste
-mmOUSsfd6j0AWn/fV+raPlf1aNJINzdKDiZWUfMYui8TKgDGCpsReewFO5hMzmV5
-VvQKjhGE
-=jz6W
+iQGzBAEBCgAdFiEEC7I6STX3HZWc3PHGY1DsZ2Kc8xsFAmd6PhgACgkQY1DsZ2Kc
+8xsHXgv+KFCp7zRDvDBBkxsJPcoS+G/Q77/2EVIWjCR2dVf746/6WwRa3Bh0m2DM
+Cc9aohcB3hKdlXSjIa6ilddmuVLM5YHJsnG/9VZ1zI3UNsQ3LqfT3EKrz/Kqc8Jt
+yJsDoIBiLkQAUrBFQqFUt9d4aR1f2Nds5hvVsUvSQCA+1l0milV6h9bCIeaQhkfg
+B3gxur5/DZmi0eU/a/ikuwAINw/gsVygSdAGsW+45AxcMWkrNsDWyFSM5yAJDLbJ
+KD2ceRAV+aKdu01KeOmGytQeBHtrgDRtKGqcL8FOxuyUcTZVyz+MdGqT+xdJ+hSu
+GoV4JKX7MREKh44WCQNDTvImphOh1/ZQlF5Fm1ZcAGdlRy3LxIxBm/qAwqqRSJ+s
+FEJMVXQM8MlyupKtMJN+6TAvnbOosYelxOn54xxtYpzny4p8GZ8su6PgVJZt5ZuR
+nH6deK6r59/uAVRkqVSe8qJljCi33B+0+a9RyAQwX4tGBVr9QTFqAlJ47Yw/47kj
+jSJPDR1/
+=C3J+
 -----END PGP SIGNATURE-----
