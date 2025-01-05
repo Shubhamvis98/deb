@@ -5,7 +5,7 @@ Origin: fossfrog
 Label: fossfrog
 Suite: fossfrog
 Codename: rolling
-Date: Sun, 22 Dec 2024 05:46:25 UTC
+Date: Sun, 05 Jan 2025 07:01:22 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: fossfrog's repo
@@ -13,8 +13,8 @@ MD5Sum:
  3a9158b159a3792c4b717bd0cc830c76 4460 main/binary-amd64/Packages
  62c67df1bda9705037466d4ba91b7bc9 1825 main/binary-amd64/Packages.gz
  96185cd5698ed69217ead8ee7c11c035 116 main/binary-amd64/Release
- ba811be2459b3578894965b1862e2e85 7814 main/binary-arm64/Packages
- e2e3a22272ee1d2f9c1958255431f9cc 2729 main/binary-arm64/Packages.gz
+ fe8ea6a086a685725ab29358f043f1b6 7812 main/binary-arm64/Packages
+ 607441bbf946d835eadda1e8c1a26e72 2723 main/binary-arm64/Packages.gz
  e88dbac496fd767c6551ee4b1f5081d2 116 main/binary-arm64/Release
  3a9158b159a3792c4b717bd0cc830c76 4460 main/binary-i386/Packages
  62c67df1bda9705037466d4ba91b7bc9 1825 main/binary-i386/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  1f3d32fedc8df47aff9ee5fb08d868d3ba8fc633 4460 main/binary-amd64/Packages
  c62ef94a440bebbcedb0172cefe2afcdfe567ec8 1825 main/binary-amd64/Packages.gz
  98e92dfea806a099ee6b6ddabd4e2df77d65fb90 116 main/binary-amd64/Release
- 98bb457f6fc96017b8151378165829fbcfe266bc 7814 main/binary-arm64/Packages
- c040b34c1760d75387eba9cf8393979979fa2e53 2729 main/binary-arm64/Packages.gz
+ a803da9f7b5682354fab1eee67926b7473b43450 7812 main/binary-arm64/Packages
+ ab77c595cd178e5d906bd689008c0d17940763f4 2723 main/binary-arm64/Packages.gz
  42aa4992028275b8b4de9944aa02fb640e22ba22 116 main/binary-arm64/Release
  1f3d32fedc8df47aff9ee5fb08d868d3ba8fc633 4460 main/binary-i386/Packages
  c62ef94a440bebbcedb0172cefe2afcdfe567ec8 1825 main/binary-i386/Packages.gz
@@ -39,8 +39,8 @@ SHA256:
  d9872de075799102624b601b6c69bed0281e101eba4212e9a48491ef46b6f10f 4460 main/binary-amd64/Packages
  c578bc954ae24d95c7461d53ea10519296f3608cfd7885f1967e22b82cbb3f01 1825 main/binary-amd64/Packages.gz
  e73a67265fedf03bbc923d248288961eb65376cf1169f034eb47d5c3f52e65d5 116 main/binary-amd64/Release
- cf948cbe51ec5cab6b4c3cb1b7a6e1bcd16bb718554083831511d9035b2511cb 7814 main/binary-arm64/Packages
- 8e10c56b81ff45d822ae741f4aa30a761f9c8adf17ceade6fc43241adc6ae91e 2729 main/binary-arm64/Packages.gz
+ 1ed6e224fe09c31e45543577749c2aa066ad365faa8171770fd6c34d376c6998 7812 main/binary-arm64/Packages
+ 7ea3b459ad6c70268e39993298c2e56e803e5b272b5eed7931e22c8e3ecea825 2723 main/binary-arm64/Packages.gz
  fd0c5d11c4a833c822033f8d141cd596d85eae6edc7e45020632b95eee69ddca 116 main/binary-arm64/Release
  d9872de075799102624b601b6c69bed0281e101eba4212e9a48491ef46b6f10f 4460 main/binary-i386/Packages
  c578bc954ae24d95c7461d53ea10519296f3608cfd7885f1967e22b82cbb3f01 1825 main/binary-i386/Packages.gz
@@ -50,15 +50,15 @@ SHA256:
  f9982193fa33cc73d423fd91852470671a1ea86186f5c8add2627f6922560f98 116 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEC7I6STX3HZWc3PHGY1DsZ2Kc8xsFAmdnp7IACgkQY1DsZ2Kc
-8xvKuwv+Mfq5D5xAy9fi9L6uxUqeuHSWx//VRKEWfcmOz8aaEbHaIr8GXrLCnNVj
-EMU1tKXht8YolpdyjEMQ++VUwh/Mw4mNOunhVoJIXpavj7k11Ga9KfFov+DxRXJ2
-o9+3MX6RfeFmFDP0OgZjOemMo57EwEoIg0TarOoXC/f68BDDOtkIpLRLI811AZzs
-p/K1Cj6VzdEelGhy6MGFY8TA42uPg57qiomhhP4ABQ788WujsO4xtnL2MCrc69R3
-STQQodjF271MvlIpTIF8jayyWk6vxySgUuUbKUtRevV/el3LgYQniqmTKQLk/Wc8
-O5Sp68FMyeyrBSZWgdclozsjPl2SxBk1+9DccdIzYBmPynn7/yrFhUG94naq90iR
-9Dg+M8PXS778J2lyxZwYLe0fh7eR6i3qn5KufKtyium7EoZeruYMpVkD540Jx8Ep
-yPzZONaSww84u3hwf6dOKJBUGHl2W6JkUgqjQBxaCpBRaieQBomcoDJ7M4/hKSR/
-QSm2rFFh
-=p7MV
+iQGzBAEBCgAdFiEEC7I6STX3HZWc3PHGY1DsZ2Kc8xsFAmd6LkIACgkQY1DsZ2Kc
+8xt4Ygv8C5sp6VdgDYkmh8BfU1cEst0ItuVuVf0ixBQFjLiyBhMO07kp/3E/5D7c
+g5hSwwCHTH0eTuZhPZ2O6gPf1Zp3qqp5RS4PawUI1LnL+VDozv4MCKU7pqRPw0Vw
+nKfdzCRsL3HKFl0fThREnwXK/WVGvSEOH7iGMmDmPRWvzYT6W5rWZZr8wlDL/eVq
+dNmIFKORfUkqoyJrzK/etsQBp6R383ANIHLyXxcP1lnW8V3RVmwBzJROYkj3MJHy
+0m8mdGIXbqvBxh+/1NU8JT3f7UU0nVBqQK6DuNgSaLX4NwdtqhWGr/cEGl8oschz
+Ei9LSe9PXOEScQgxTjro3ZYgLxf+YLFvKZ8iVGbBqXmtQV72KGPwUckf6Z2FDxaq
+GVNDkdzq+nIDOFRHdWFrYKnmiK7LrilGpcOAFMwtVq6ZrNWS76zRo6u11hxy45hz
+Kz43py+c/PoIwOx9Scf/F+uCkdLuxiUI97sv7W5GxfLUDrt4zWHgkbULER2es0nJ
+zg5HXQwO
+=BUom
 -----END PGP SIGNATURE-----
