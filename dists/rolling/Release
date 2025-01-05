@@ -2,7 +2,7 @@ Origin: fossfrog
 Label: fossfrog
 Suite: fossfrog
 Codename: rolling
-Date: Sun, 05 Jan 2025 07:01:22 UTC
+Date: Sun, 05 Jan 2025 07:32:54 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: fossfrog's repo
@@ -10,8 +10,8 @@ MD5Sum:
  3a9158b159a3792c4b717bd0cc830c76 4460 main/binary-amd64/Packages
  62c67df1bda9705037466d4ba91b7bc9 1825 main/binary-amd64/Packages.gz
  96185cd5698ed69217ead8ee7c11c035 116 main/binary-amd64/Release
- fe8ea6a086a685725ab29358f043f1b6 7812 main/binary-arm64/Packages
- 607441bbf946d835eadda1e8c1a26e72 2723 main/binary-arm64/Packages.gz
+ 32eb4633646317adca5394ed42d614ce 7812 main/binary-arm64/Packages
+ de876f14050e88899d3309658faaaf5d 2728 main/binary-arm64/Packages.gz
  e88dbac496fd767c6551ee4b1f5081d2 116 main/binary-arm64/Release
  3a9158b159a3792c4b717bd0cc830c76 4460 main/binary-i386/Packages
  62c67df1bda9705037466d4ba91b7bc9 1825 main/binary-i386/Packages.gz
@@ -23,8 +23,8 @@ SHA1:
  1f3d32fedc8df47aff9ee5fb08d868d3ba8fc633 4460 main/binary-amd64/Packages
  c62ef94a440bebbcedb0172cefe2afcdfe567ec8 1825 main/binary-amd64/Packages.gz
  98e92dfea806a099ee6b6ddabd4e2df77d65fb90 116 main/binary-amd64/Release
- a803da9f7b5682354fab1eee67926b7473b43450 7812 main/binary-arm64/Packages
- ab77c595cd178e5d906bd689008c0d17940763f4 2723 main/binary-arm64/Packages.gz
+ 3e514a68f7caca8807ebe0eac1e203b114a5d025 7812 main/binary-arm64/Packages
+ 6d6000a02a16354c37ff7aab1fd06828c8e3c7ef 2728 main/binary-arm64/Packages.gz
  42aa4992028275b8b4de9944aa02fb640e22ba22 116 main/binary-arm64/Release
  1f3d32fedc8df47aff9ee5fb08d868d3ba8fc633 4460 main/binary-i386/Packages
  c62ef94a440bebbcedb0172cefe2afcdfe567ec8 1825 main/binary-i386/Packages.gz
@@ -36,8 +36,8 @@ SHA256:
  d9872de075799102624b601b6c69bed0281e101eba4212e9a48491ef46b6f10f 4460 main/binary-amd64/Packages
  c578bc954ae24d95c7461d53ea10519296f3608cfd7885f1967e22b82cbb3f01 1825 main/binary-amd64/Packages.gz
  e73a67265fedf03bbc923d248288961eb65376cf1169f034eb47d5c3f52e65d5 116 main/binary-amd64/Release
- 1ed6e224fe09c31e45543577749c2aa066ad365faa8171770fd6c34d376c6998 7812 main/binary-arm64/Packages
- 7ea3b459ad6c70268e39993298c2e56e803e5b272b5eed7931e22c8e3ecea825 2723 main/binary-arm64/Packages.gz
+ 11303d405f9a78ab7dae6336660ebf0b9c455165b539b7b6e046140a6264c62f 7812 main/binary-arm64/Packages
+ 3bf9358f6b7eae77dff4a7669059a74c25ed3844afe532020abd7fdc095c2d15 2728 main/binary-arm64/Packages.gz
  fd0c5d11c4a833c822033f8d141cd596d85eae6edc7e45020632b95eee69ddca 116 main/binary-arm64/Release
  d9872de075799102624b601b6c69bed0281e101eba4212e9a48491ef46b6f10f 4460 main/binary-i386/Packages
  c578bc954ae24d95c7461d53ea10519296f3608cfd7885f1967e22b82cbb3f01 1825 main/binary-i386/Packages.gz

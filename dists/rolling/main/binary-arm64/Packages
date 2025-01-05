@@ -37,18 +37,18 @@ Description: Linux kernel headers for 6.6.58-sdm845-nh on arm64
 
 Package: linux-headers-6.9.0-sm7325
 Source: linux-upstream
-Version: 6.9.0-4
+Version: 6.9.0-6
 Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 51380
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.9.0-sm7325_6.9.0-4_arm64.deb
-Size: 8627300
-SHA256: 14085ab64d3c14a323b879770f9091b139908031cf1d3daef791086413c1ab25
-SHA1: bb828f5c700b0fd3c1275f6656c871e4206ef3e8
-MD5sum: a0c6bd577c84abd8e6c13c174d7d43eb
+Filename: pool/main/l/linux-upstream/linux-headers-6.9.0-sm7325_6.9.0-6_arm64.deb
+Size: 8627140
+SHA256: 98b0acc5d3e27772dc78517eae5c6fc57e3a630d5553184a58a3ad3756c36675
+SHA1: dc40286e5cf43e5b7db1d69deda83de33b6b08ed
+MD5sum: 4a11bb56bdd48dd91304b7620945f729
 Description: Linux kernel headers for 6.9.0-sm7325 on arm64
  This package provides kernel header files for 6.9.0-sm7325 on arm64
  .
@@ -74,25 +74,25 @@ Description: Linux kernel, version 6.6.58-sdm845-nh
 
 Package: linux-image-6.9.0-sm7325
 Source: linux-upstream
-Version: 6.9.0-4
+Version: 6.9.0-6
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 31723
+Installed-Size: 31682
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.9.0-sm7325_6.9.0-4_arm64.deb
-Size: 10377716
-SHA256: 23982b0e3de95c785fa4ee0ac3ba5bd6e0600c804997372707c6b1aaab1d62c4
-SHA1: 77531266f60a35ea874e7d5bdfed218bc4c91f98
-MD5sum: 21d7208d96734f799192e3c09d7dd67e
+Filename: pool/main/l/linux-upstream/linux-image-6.9.0-sm7325_6.9.0-6_arm64.deb
+Size: 10379996
+SHA256: 657b9bf3d24d27cde13b54a73a004336f1681aa26340152d5c6016fc87a96131
+SHA1: 94d5fddff3046afd2be7918d0e7099fb77d8efd7
+MD5sum: 1f7193379cf7c9fa075540d0d260cc4b
 Description: Linux kernel, version 6.9.0-sm7325
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.9.0-sm7325.
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.9.0-4
+Version: 6.9.0-6
 Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 6847
@@ -101,11 +101,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.9.0-4_arm64.deb
-Size: 1332116
-SHA256: 8227136a7bc4518c91bb6ea766e37a80123756a8dc5f0d704ed266f04dac1ee7
-SHA1: cadc5a7caef79f2eba0f40679e098babfcc4c4e8
-MD5sum: 9108522655c966449f81a70a2e183822
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.9.0-6_arm64.deb
+Size: 1332132
+SHA256: e471727f2ba35b772d3cc4a8fb29e7e1181a6f0dcefb2f0caae30347b2b33127
+SHA1: 8c695f11c386d2f8f627e9c6589e50f5a7ba465a
+MD5sum: 4c918633cf52af30d3e765fa0543c135
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
