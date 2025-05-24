@@ -25,10 +25,10 @@ Homepage: https://github.com/kgmt0/megapixels
 Priority: optional
 Section: x11
 Filename: pool/main/m/megapixels-config-pinephonepro/megapixels-config-pinephonepro_1.0.0_all.deb
-Size: 2528
-SHA256: 51cb25003ccb7cdfd60a9c1c7f198655dc2197859b17f61dc7af89cf027813a1
-SHA1: cac7e70ede1de0b9ed7b439177044a0e795bcab6
-MD5sum: 7a0cd95bd453a94bd6f1797f1afffe40
+Size: 1364
+SHA256: 8770a485d26ee1d69928a7c421f02db12d72d9f90de9c9f0a9ce4bb4a16f33c0
+SHA1: b4d6aba29e434b820c41f62312b7e2794f468b6b
+MD5sum: 61315cf5592f5f8f5392a58d1efbc86a
 Description: Unofficial PinePhone Pro's config for megapixels.
 
 Package: nethunter
