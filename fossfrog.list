@@ -1,1 +1,1 @@
-deb https://repo.fossfrog.in rolling main
+deb [signed-by=/etc/apt/trusted.gpg.d/fossfrog.gpg] https://repo.fossfrog.in rolling main
