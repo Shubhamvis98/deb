@@ -1,152 +1,144 @@
 Package: hijacker
-Architecture: all
 Version: 1.2
-Priority: optional
-Section: net
+Architecture: all
 Maintainer: Shubham Vishwakarma <ShubhamVis98>
 Installed-Size: 116
 Depends: python3, python3-psutil, python3-pyperclip, aircrack-ng, xclip, macchanger
+Homepage: https://www.fossfrog.in/
+Priority: optional
+Section: net
 Filename: pool/main/h/hijacker/hijacker_1.2_all.deb
 Size: 9944
-MD5sum: cc3164363dd8e14c66aab38708124d9c
-SHA1: 740472e3e1b89808416696b74c6d3971b1910bf7
 SHA256: 2f17902da3175c6894d27e7c28b3a8bf0fb68431402fb073aa8756774691d1a4
-SHA512: 2365eabf0115d4976d3f669ddec3cb63161c59b0e7c10cef45e0582587b99d88448e1ebec31b5ff33b3743886a4a2a867577603f4d029d601c9529b26a3d7778
-Homepage: https://www.fossfrog.in/
+SHA1: 740472e3e1b89808416696b74c6d3971b1910bf7
+MD5sum: cc3164363dd8e14c66aab38708124d9c
 Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
 
 Package: linux-headers-6.6.58-sdm845-nh
-Architecture: arm64
-Version: 6.6.58-2
-Priority: optional
-Section: kernel
 Source: linux-upstream
+Version: 6.6.58-2
+Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 52044
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.6.58-sdm845-nh_6.6.58-2_arm64.deb
 Size: 8652156
-MD5sum: e9c8af1bdcf6d78c30c2cfddbefed1f7
-SHA1: f38db893929b859e456032a6ebed858484130cd6
 SHA256: 002eeed7ebbcd100de4cd13e093ccfc409fca9f4ba8a56280d7f8120a026d115
-SHA512: 91bff00645a4874797000d2d7e215b56384a3e73fd84dae3b696e6796f4c98c5c5714e737cc87a456b9ca7ed38b57fbf99dace55ec2f800ad9ba6d4d4ee4ef4d
-Homepage: https://www.kernel.org/
+SHA1: f38db893929b859e456032a6ebed858484130cd6
+MD5sum: e9c8af1bdcf6d78c30c2cfddbefed1f7
 Description: Linux kernel headers for 6.6.58-sdm845-nh on arm64
  This package provides kernel header files for 6.6.58-sdm845-nh on arm64
  .
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.9.0-sm7325
-Architecture: arm64
-Version: 6.9.0-2
-Priority: optional
-Section: kernel
 Source: linux-upstream
+Version: 6.9.0-2
+Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 51083
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.9.0-sm7325_6.9.0-2_arm64.deb
 Size: 8585020
-MD5sum: 5625c380cbdff063d68985a459f67920
-SHA1: d3abcfee5297b8c5eb4c6b5c15dc79113d7b6ae9
 SHA256: dc01cd6cd5fd3e83dab46833ea74f34adbdafbb86d2e36bdf5ec0e3728caaa1e
-SHA512: 33dd624f01e9a0c2e13185d3b7f8dd53c785e4ac16bc26d0f73afeb93333c56096742c49fa3fe023bb16c6deea595ddff47e59a2fbaf6cf271e1ae305008e060
-Homepage: https://www.kernel.org/
+SHA1: d3abcfee5297b8c5eb4c6b5c15dc79113d7b6ae9
+MD5sum: 5625c380cbdff063d68985a459f67920
 Description: Linux kernel headers for 6.9.0-sm7325 on arm64
  This package provides kernel header files for 6.9.0-sm7325 on arm64
  .
  This is useful for people who need to build external modules
 
 Package: linux-image-6.6.58-sdm845-nh
-Architecture: arm64
-Version: 6.6.58-2
-Priority: optional
-Section: kernel
 Source: linux-upstream
+Version: 6.6.58-2
+Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 39641
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.6.58-sdm845-nh_6.6.58-2_arm64.deb
 Size: 19573596
-MD5sum: a9f754bbb8f47d3df1b70a6b6c53f572
-SHA1: 73d9617ee58eb661a9459accc9c6715e122fcec7
 SHA256: 2c9624adec95ab8de349d3c38dc5492d2584c126b35b8670c65b5dbd9a221f35
-SHA512: 1abea416a5f12f18222744df1b0012371d04b25530c9c432a0ad7cc957b61818592ea2496be60c5b87191ec4d9b88d29cb7f161b7c0d5388d04cb9893e218b25
-Homepage: https://www.kernel.org/
+SHA1: 73d9617ee58eb661a9459accc9c6715e122fcec7
+MD5sum: a9f754bbb8f47d3df1b70a6b6c53f572
 Description: Linux kernel, version 6.6.58-sdm845-nh
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.6.58-sdm845-nh.
 
 Package: linux-image-6.9.0-sm7325
-Architecture: arm64
-Version: 6.9.0-2
-Priority: optional
-Section: kernel
 Source: linux-upstream
+Version: 6.9.0-2
+Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 31723
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.9.0-sm7325_6.9.0-2_arm64.deb
 Size: 10378280
-MD5sum: 16d9e649148a355b9a63e44299c11018
-SHA1: 8349bdbed07e6d1c7ee52d9bb2c1c2162858be87
 SHA256: 46a103bee553934d7a5aa7f0439b8f1a52fde90d103ee423047e23aa54d8ab68
-SHA512: 5888b671482082d20a4b75756f3095c5cef135726f6018d5e8acd29277d3fbc923895453641bbbd39c1b70ce9b4c246a493b2717f6475978788b057519649fdf
-Homepage: https://www.kernel.org/
+SHA1: 8349bdbed07e6d1c7ee52d9bb2c1c2162858be87
+MD5sum: 16d9e649148a355b9a63e44299c11018
 Description: Linux kernel, version 6.9.0-sm7325
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.9.0-sm7325.
 
 Package: linux-libc-dev
-Architecture: arm64
-Version: 6.9.0-6
-Multi-Arch: same
-Priority: optional
-Section: devel
 Source: linux-upstream
+Version: 6.9.0-6
+Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 6847
 Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
 Filename: pool/main/l/linux-upstream/linux-libc-dev_6.9.0-6_arm64.deb
 Size: 1332132
-MD5sum: 4c918633cf52af30d3e765fa0543c135
-SHA1: 8c695f11c386d2f8f627e9c6589e50f5a7ba465a
 SHA256: e471727f2ba35b772d3cc4a8fb29e7e1181a6f0dcefb2f0caae30347b2b33127
-SHA512: df098bec7dd7ffcd091a1515db61f8755075df21a7678746b4e9edcd8bfc23ba6fb0b1c8f395ecde6dba7de63e23f07c0962862d2b9a1d917f3a849f584f6915
-Homepage: https://www.kernel.org/
+SHA1: 8c695f11c386d2f8f627e9c6589e50f5a7ba465a
+MD5sum: 4c918633cf52af30d3e765fa0543c135
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: megapixels-config-pinephonepro
-Architecture: all
 Version: 1.0.0
-Priority: optional
-Section: x11
+Architecture: all
 Maintainer: Shubham Vishwakarma <ShubhamVis98@nethunter.com>
 Depends: megapixels
+Homepage: https://github.com/kgmt0/megapixels
+Priority: optional
+Section: x11
 Filename: pool/main/m/megapixels-config-pinephonepro/megapixels-config-pinephonepro_1.0.0_all.deb
 Size: 1364
-MD5sum: 61315cf5592f5f8f5392a58d1efbc86a
-SHA1: b4d6aba29e434b820c41f62312b7e2794f468b6b
 SHA256: 8770a485d26ee1d69928a7c421f02db12d72d9f90de9c9f0a9ce4bb4a16f33c0
-SHA512: 527ea670c0d31244fadb1d40394ce17ab1a305b1c4e704a5ad2b3186428dfa59d0ac31412331f634fac212f6b1aaa4a3e9e2b97da801b0c58d3d2615a9836c69
-Homepage: https://github.com/kgmt0/megapixels
+SHA1: b4d6aba29e434b820c41f62312b7e2794f468b6b
+MD5sum: 61315cf5592f5f8f5392a58d1efbc86a
 Description: Unofficial PinePhone Pro's config for megapixels.
 
 Package: nethunter
-Architecture: all
 Version: 1.9.1
-Priority: optional
-Section: net
+Architecture: all
 Maintainer: Shubham Vishwakarma <ShubhamVis98>
 Installed-Size: 152
 Depends: python3, python3-bluez, python3-psutil, macchanger, mdk4, gir1.2-notify-0.7
+Homepage: https://www.fossfrog.in/
+Priority: optional
+Section: net
 Filename: pool/main/n/nethunter/nethunter_1.9.1_all.deb
 Size: 18912
-MD5sum: b00598c02e7b38a6ecffab47394fd72e
-SHA1: 14875409af0a3c8726bd441bc782082d72dcf8a4
 SHA256: ceaaa04de5ccb6364051840bc321fcb4c45c8cef259231f6f1f3b26cfaaf3044
-SHA512: 544df7831e56729ae0e8b1499c65539f3b5755ac843a4f0babf0dbf4c47e34528ef832bc7e5e1b6bd271fcdcb3640ad512379a4866c02c649055d086765bf7f7
-Homepage: https://www.fossfrog.in/
+SHA1: 14875409af0a3c8726bd441bc782082d72dcf8a4
+MD5sum: b00598c02e7b38a6ecffab47394fd72e
 Description: An unofficial clone of Android's NetHunter app
  for GNU/Linux Operating Systems and Phones. Initially built
  for PinePhone.
@@ -162,58 +154,55 @@ Description: An unofficial clone of Android's NetHunter app
  - BadBT (Bluetooth Ducky)
 
 Package: network-scanner
-Architecture: all
 Version: 1.0
-Priority: optional
-Section: net
+Architecture: all
 Maintainer: Shubham Vishwakarma <ShubhamVis98>
 Installed-Size: 76
 Depends: nmap
+Homepage: https://www.fossfrog.in/
+Priority: optional
+Section: net
 Filename: pool/main/n/network-scanner/network-scanner_1.0_all.deb
 Size: 6816
-MD5sum: 11f74d188440a71610dc9e81fbd428b0
-SHA1: 008e58607ef0eaeaf85476464207d10362c7be47
 SHA256: 1d878f9ad542dea35611187d608fccd38780a65d136d934a8ee6b3f44752dc66
-SHA512: 5b2a2aa7045813caf4ab6b8be1046ea227378443f93f9db1e058224dc329f7467bbddd41f6986a19a5595ab51f72c13609ed1eff90a85b81d090b7fbea8c6044
-Homepage: https://www.fossfrog.in/
+SHA1: 008e58607ef0eaeaf85476464207d10362c7be47
+MD5sum: 11f74d188440a71610dc9e81fbd428b0
 Description: An nmap front-end for Linux Phones.
 
 Package: sdm845-support
-Architecture: all
-Version: 1.2.5
-Priority: optional
-Section: metapackages
 Source: qcom-support
+Version: 1.2.5
+Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@nethunter.com>
 Installed-Size: 9
 Depends: linux-image-6.6.58-sdm845-nh, qcom-support-common
+Homepage: https://fossfrog.in
+Priority: optional
+Section: metapackages
 Filename: pool/main/q/qcom-support/sdm845-support_1.2.5_all.deb
 Size: 872
-MD5sum: dd7cfae18225f4ee8385f97219e2d363
-SHA1: c9c5ba295176b706d08d79c5008109830753bb45
 SHA256: c7c16ac3b2953e90d3bf21f9b193658196465f2fc7726d49fb9c0a578bccabea
-SHA512: 1cb4bd0d821c10eb0fc0f706f00e29cb3d367eda62c5403e76eecaf9f5acd821925705a4406a39a196f4b4992de080840d7c58d9f2ab16283ee5aa948980d1a6
-Homepage: https://fossfrog.in
+SHA1: c9c5ba295176b706d08d79c5008109830753bb45
+MD5sum: dd7cfae18225f4ee8385f97219e2d363
 Description: Hardware support packages for SDM845 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SDM845 SoC.
 
 Package: sm7325-support
-Architecture: all
-Version: 1.0.0
-Priority: optional
-Section: metapackages
 Source: qcom-support
+Version: 1.0.0
+Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@nethunter.com>
 Installed-Size: 9
 Depends: linux-image-6.9.0-sm7325, qcom-support-common
+Homepage: https://fossfrog.in
+Priority: optional
+Section: metapackages
 Filename: pool/main/q/qcom-support/sm7325-support_1.0.0_all.deb
 Size: 868
-MD5sum: 428be53da7009383e6293061af56f11b
-SHA1: 81a613e6b971c8846b4e3c530a0a9ff986fde120
 SHA256: 2915171c461e00e598ad3e596bc5a45054d881ab234dfc466833bae779b0b8a1
-SHA512: 64d906dd1ccf8d39465f7b92e45050bc8cc6eb57f01ccf7c70aa64e3e5525a3cbfd03dcd7537ac693d025a21cef8521df2751912b62d17a816eab357518b28aa
-Homepage: https://fossfrog.in
+SHA1: 81a613e6b971c8846b4e3c530a0a9ff986fde120
+MD5sum: 428be53da7009383e6293061af56f11b
 Description: Hardware support packages for SM7325 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SM7325 SoC.
