@@ -1,13 +1,13 @@
 Architectures: amd64 arm64 i386 armhf
 Codename: rolling
 Components: main
-Date: Tue, 27 May 2025 01:15:35 +0000
+Date: Tue, 27 May 2025 01:01:11 +0000
 Description: fossfrog's repo
 Label: fossfrog
 Origin: fossfrog
 Suite: rolling
 MD5Sum:
- 95259d4bdaea9e1540d833faf9b76bed              188 Release
+ 8531aae1ae4f8ee303abdd9fb20b315e              188 Release
  cdd3779cb5c10cb56785d4f809472e4c             1154 main/Contents-amd64
  e340a155ac985e2722bfed27fabb8590              304 main/Contents-amd64.gz
  7d4930b7e1bbbda05061f2afb76617d4          2118167 main/Contents-arm64
@@ -25,7 +25,7 @@ MD5Sum:
  a080d563f2a9e0818e5107b0a463574a             4816 main/binary-i386/Packages
  348e7ef9c7dc269c17aa24456ed41d7b             2165 main/binary-i386/Packages.gz
 SHA1:
- 20311b4364fb1135350fc8834120e86fda1912d8              188 Release
+ 7e41f04a9420fc24971e84ae5b5b7821149db642              188 Release
  281d8e3f740c970c317406aaf5dda370272ec1a4             1154 main/Contents-amd64
  99b5062c5c66a8cc6eba3218fb8eebb4ebb27996              304 main/Contents-amd64.gz
  d3d7d180cf791f0a93be4ebd69344828c196a4d8          2118167 main/Contents-arm64
@@ -43,7 +43,7 @@ SHA1:
  a29ffa737b3373d0352d189e5c1b1b82b72fb4e7             4816 main/binary-i386/Packages
  0220193525af2610d1b52d30bc164f31b3f7819a             2165 main/binary-i386/Packages.gz
 SHA256:
- 304f49fbbb726783012a1e50b9af052f4b60a8c0ab322f6ce31fde76265983ab              188 Release
+ 21d9570f5acbfdfd038321d486d66b1aa1dfd58c6d632fe913d0a1d99041ff94              188 Release
  f6584a54da384a4f5e03ff4e6fa5c000874f078470b6a91f7e16ad1b4f07e81d             1154 main/Contents-amd64
  2e137fece08bca6bceba679598b2cab23bed32a94d0784f8d83ba47828164682              304 main/Contents-amd64.gz
  96e2758307e1d5d8636b15d5e6ed7985cb336cb94cdbbb0d00d1e4ade493ad8e          2118167 main/Contents-arm64
@@ -61,7 +61,7 @@ SHA256:
  e8aa3cc7ed789fbc29ac53d338e201fc844bfafcf88bf4f2a035225fccc9c4c1             4816 main/binary-i386/Packages
  7cb7da92a4358267229a524308ec800e044d9023d78498744761632142316bf7             2165 main/binary-i386/Packages.gz
 SHA512:
- d775f43b923aeae183cf9bde3bada0ff7a86114d72df791e37762f85f5459c066135c4c944f8f86e1d6706ae605e30ada327ee4da407ae99afc51e814ed5f2d4              188 Release
+ 065eb478f30cbe92672b17c6d1a2146532bcf9be9cf0270210a582cbebcd2139b101c5d46633f2ab8588c1d5b03b20a1b57fe1a6aff411e1e1a9f3bbc299c0cc              188 Release
  170b1a89985acb116af4a0d316f9a041fb467df54ef4985052be75967a9e7480ff8ae71ed7b16c2e563ea378f842167d54cc2cb60c3abf7c51a9e3c09327db62             1154 main/Contents-amd64
  78eb7e1c883ed0e67282da2eefcd11ea838df0b6354cf7febea858209c3911bcc786be6a317b1c5228338f6b414b8811d86438e3bde1c8a5fa22c94e26eeb7c1              304 main/Contents-amd64.gz
  58cdc494ec80493195e0e09c2b42e0ec807abd68fed5367c4398c454148b65857628a0128dbfe1b9266c705f4a5515baf46412dffe4299c1b7ba5c59dd544758          2118167 main/Contents-arm64
