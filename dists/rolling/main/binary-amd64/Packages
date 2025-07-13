@@ -75,6 +75,27 @@ SHA1: 008e58607ef0eaeaf85476464207d10362c7be47
 MD5sum: 11f74d188440a71610dc9e81fbd428b0
 Description: An nmap front-end for Linux Phones.
 
+Package: qcom-support
+Version: 1.3.2
+Architecture: all
+Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
+Installed-Size: 10
+Depends: linux-image-6.12.37-nh-qcom, qcom-support-common
+Breaks: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
+Replaces: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
+Provides: sdm845-support, sm7225-support
+Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
+Priority: optional
+Section: metapackages
+Filename: pool/main/q/qcom-support/qcom-support_1.3.2_all.deb
+Size: 2932
+SHA256: 4dbc638b4a207ee4213a7a3e1e51bff2f4ed6ec097c4df11fbb1e38ec0350c78
+SHA1: 1cd2add663c4ef9ccdfaaeaf697b03a378fa427a
+MD5sum: a63b6eba5cb24aa755d097d34abe6633
+Description: Hardware support packages for Qualcomm-based devices
+ This metapackage pulls in all packages needed to run on devices based
+ on the Qualcomm SoC's currently supported in Mobian.
+
 Package: sdm845-support
 Source: qcom-support
 Version: 1.2.5
