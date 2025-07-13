@@ -16,22 +16,22 @@ Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
 
-Package: linux-headers-6.12.35-qcom
+Package: linux-headers-6.12.37-qcom
 Source: linux-upstream
-Version: 6.12.35-2
+Version: 6.12.37-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 51172
+Installed-Size: 50882
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.12.35-qcom_6.12.35-2_arm64.deb
-Size: 8601152
-SHA256: e9fd5b9602aab70a1c75e2782b184d52ec3e5a9b7cdff4c0e68a4809bd87a37a
-SHA1: d891c5e17f963a9b82bbb495916767bc6a2f3bfc
-MD5sum: c79da132ee43bc1b5136ac3a8408f1f4
-Description: Linux kernel headers for 6.12.35-qcom on arm64
- This package provides kernel header files for 6.12.35-qcom on arm64
+Filename: pool/main/l/linux-upstream/linux-headers-6.12.37-qcom_6.12.37-1_arm64.deb
+Size: 8562092
+SHA256: 562838ec0516ba127765110d988dbd9896bf2dffa86d4e5e264fec685380f696
+SHA1: 56d26f0d86eb3d0cddf99a021a10726e029155d4
+MD5sum: e63f621387506fea11c6e6c67f8dca32
+Description: Linux kernel headers for 6.12.37-qcom on arm64
+ This package provides kernel header files for 6.12.37-qcom on arm64
  .
  This is useful for people who need to build external modules
 
@@ -73,23 +73,23 @@ Description: Linux kernel headers for 6.9.0-sm7325 on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.12.35-qcom
+Package: linux-image-6.12.37-qcom
 Source: linux-upstream
-Version: 6.12.35-2
+Version: 6.12.37-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 228947
+Installed-Size: 152211
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.12.35-qcom_6.12.35-2_arm64.deb
-Size: 43751928
-SHA256: cfeccba7519eb498a9f13b6a8bed4226860a177b89649e654575090776b200de
-SHA1: 5053c70c813e4f54a664ef97400b84bc057d04bd
-MD5sum: 961f6cc43228c100ccb9ae67ed20026a
-Description: Linux kernel, version 6.12.35-qcom
+Filename: pool/main/l/linux-upstream/linux-image-6.12.37-qcom_6.12.37-1_arm64.deb
+Size: 29269432
+SHA256: 43dd4c01b1d572c0d3263489287229456d00a53e2e5bbbf734f8f4c9959e4c2f
+SHA1: e8d42f29fef4d35cf3251c691b231c292b352162
+MD5sum: a91d9a269bd187c236e3c8bc6b483caa
+Description: Linux kernel, version 6.12.37-qcom
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.35-qcom.
+ files, version: 6.12.37-qcom.
 
 Package: linux-image-6.6.58-sdm845-nh
 Source: linux-upstream
@@ -129,7 +129,7 @@ Description: Linux kernel, version 6.9.0-sm7325
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.12.35-2
+Version: 6.12.37-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 7058
@@ -138,11 +138,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12.35-2_arm64.deb
-Size: 1371436
-SHA256: dedec02bbb3209b41ceecdff434641309ae3b811fad33f8204862fbc4b67860d
-SHA1: 83dee57fe01e757270164b0b5f845b5dbd9d6a74
-MD5sum: 86292fc9cc65d3c26f8a96458d0a4279
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12.37-1_arm64.deb
+Size: 1371320
+SHA256: 38fa5dfca79822db27689ed2ec654bb9f18f025319d837e862269b2dff7f1315
+SHA1: 65d52704ee521d63f2d18e7e980d011ed231f769
+MD5sum: 8711fa5d9b560bb66af84bb97b66455b
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
