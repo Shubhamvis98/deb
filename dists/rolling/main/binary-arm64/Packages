@@ -16,7 +16,7 @@ Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
 
-Package: linux-headers-6.12.37-nh-qcom
+Package: linux-headers-6.12.37-qcom
 Source: linux-upstream
 Version: 6.12
 Architecture: arm64
@@ -25,13 +25,13 @@ Installed-Size: 50882
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.12.37-nh-qcom_6.12_arm64.deb
-Size: 8562052
-SHA256: ceb362e62a92a932159e616df205c2c43a06c0ab1ee71a3764919723274727e5
-SHA1: 2709ea9ce80553a150702534955d0a39418aade1
-MD5sum: 6f100e0a56203fa62cb84645a9b724dc
-Description: Linux kernel headers for 6.12.37-nh-qcom on arm64
- This package provides kernel header files for 6.12.37-nh-qcom on arm64
+Filename: pool/main/l/linux-upstream/linux-headers-6.12.37-qcom_6.12_arm64.deb
+Size: 8561964
+SHA256: 6ee2a9c5cee2558b1d5f0472f7571bf641594432a3a5429966ecd7fcbe83c086
+SHA1: 16910af8875ad9650d4e4889672995a2cfd28862
+MD5sum: 5d6eab4cc0ce230a8c604a1044023080
+Description: Linux kernel headers for 6.12.37-qcom on arm64
+ This package provides kernel header files for 6.12.37-qcom on arm64
  .
  This is useful for people who need to build external modules
 
@@ -73,23 +73,23 @@ Description: Linux kernel headers for 6.9.0-sm7325 on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.12.37-nh-qcom
+Package: linux-image-6.12.37-qcom
 Source: linux-upstream
 Version: 6.12
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 152214
+Installed-Size: 152211
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.12.37-nh-qcom_6.12_arm64.deb
-Size: 29274352
-SHA256: 7b6657f06765067d991fd1e7025d7e599a8e84a2fac72efde65fe08cad9d6d56
-SHA1: 86df750392e9e276c8ec26c50f778bc5df551469
-MD5sum: b2a019f4de5264e9277fd15767c7d8f5
-Description: Linux kernel, version 6.12.37-nh-qcom
+Filename: pool/main/l/linux-upstream/linux-image-6.12.37-qcom_6.12_arm64.deb
+Size: 29272192
+SHA256: fc3cff0459ebd71c2530648e6ebf3c385ea15d720ef2188bc7d3d887a99dfe25
+SHA1: 5b8b57604884c280644e6398886ec949ab8b6d25
+MD5sum: d286848b6f8aea003ad4a13d4988f0ce
+Description: Linux kernel, version 6.12.37-qcom
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.37-nh-qcom.
+ files, version: 6.12.37-qcom.
 
 Package: linux-image-6.6.58-sdm845-nh
 Source: linux-upstream
@@ -139,10 +139,10 @@ Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
 Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12_arm64.deb
-Size: 1371580
-SHA256: fa31d75894e6e3f95faa363389feb673b464d6770098523e019887937c210769
-SHA1: 4eb60e76c0b030a24366fa6e09974f0ab73a8b8b
-MD5sum: af3c5076c3f3774da0abc6a63dcf5896
+Size: 1371448
+SHA256: 8e223face2c8c6ba9dc5622051c420a3125f87945cdf4117b73cb5282e8a7001
+SHA1: 72a2f325bf33abce3fbdd0e79b84f66904623f6c
+MD5sum: 38c869e4e04343c085da9c420af4d329
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
@@ -211,7 +211,7 @@ Version: 1.3.2
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
-Depends: linux-image-6.12.37-nh-qcom, qcom-support-common
+Depends: linux-image-6.12.37-qcom, qcom-support-common
 Breaks: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
 Replaces: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
 Provides: sdm845-support, sm7225-support
@@ -219,13 +219,14 @@ Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
 Filename: pool/main/q/qcom-support/qcom-support_1.3.2_all.deb
-Size: 2932
-SHA256: 4dbc638b4a207ee4213a7a3e1e51bff2f4ed6ec097c4df11fbb1e38ec0350c78
-SHA1: 1cd2add663c4ef9ccdfaaeaf697b03a378fa427a
-MD5sum: a63b6eba5cb24aa755d097d34abe6633
+Size: 2952
+SHA256: 2b9a24f2dbec3d714b1096f0640325040992d4e644ffd65c70c654c823226dc5
+SHA1: 9bfc5f353f4fee600eb08b3ad2ed3b52fc9f7220
+MD5sum: 941e18ea2202ed8fee756015e888184d
 Description: Hardware support packages for Qualcomm-based devices
  This metapackage pulls in all packages needed to run on devices based
- on the Qualcomm SoC's currently supported in Mobian.
+ on the Qualcomm SoC's currently supported in Mobian. This package
+ contains NetHunter Kernel for NetHunter Pro.
 
 Package: sdm845-support
 Source: qcom-support
