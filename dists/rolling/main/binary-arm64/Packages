@@ -16,6 +16,31 @@ Description: wireless WEP/WPA cracking utilities
  hijacker is an app inspired by android's hijacker app for cracking,
  deauth and for packet capturing. It uses aircrack-ng as backend.
 
+Package: kalitorify
+Version: 1.29.0
+Architecture: all
+Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
+Installed-Size: 41
+Depends: curl, tor, iptables
+Homepage: https://fossfrog.in
+Priority: optional
+Section: net
+Filename: pool/main/k/kalitorify/kalitorify_1.29.0_all.deb
+Size: 10568
+SHA256: 3998c85f39f79c1820a112cb0158403c89aa4cac002d4d79a74970407077a78f
+SHA1: 2ea3b74ee84aff0ee866a58d88fe47275447ea7a
+MD5sum: 01c7e223dcdb97c8bef9d37127965e90
+Description: Transparent proxy for Kali Linux through Tor
+ kalitorify is a shell script for Kali Linux which use iptables
+ settings to create a Transparent Proxy through the Tor Network,
+ the program also allows you to perform various checks like checking
+ the Tor Exit Node (i.e. your public IP address when you are under
+ Tor proxy), or if Tor has been configured correctly checking service
+ and network settings.
+ .
+ In simple terms, with kalitorify you can redirect all traffic of your
+ Kali Linux operating system through the Tor Network.
+
 Package: linux-headers-6.12.37-qcom
 Source: linux-upstream
 Version: 6.12
