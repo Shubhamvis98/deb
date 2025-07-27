@@ -60,6 +60,25 @@ Description: Linux kernel headers for 6.12.37-qcom on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.12.40-qcom-nh
+Source: linux-upstream
+Version: 6.12.40-1
+Architecture: arm64
+Maintainer: root <root@fossfrog>
+Installed-Size: 50895
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.12.40-qcom-nh_6.12.40-1_arm64.deb
+Size: 8564392
+SHA256: 89fe0fb9b1e03395d072c205e7dc90cf3b5ff286ad9de1eb87a2394aa73de9bb
+SHA1: ff8d9b2022e98a56dc92f2414f1c86ca4ac8d5de
+MD5sum: 34ee342f7f5f4e946fbad0b8e10a343a
+Description: Linux kernel headers for 6.12.40-qcom-nh on arm64
+ This package provides kernel header files for 6.12.40-qcom-nh on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.6.58-sdm845-nh
 Source: linux-upstream
 Version: 6.6.58-2
@@ -116,6 +135,24 @@ Description: Linux kernel, version 6.12.37-qcom
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.37-qcom.
 
+Package: linux-image-6.12.40-qcom-nh
+Source: linux-upstream
+Version: 6.12.40-1
+Architecture: arm64
+Maintainer: root <root@fossfrog>
+Installed-Size: 152450
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.12.40-qcom-nh_6.12.40-1_arm64.deb
+Size: 29278284
+SHA256: f87063adb12a3dd8420fd390f10b8dcbd524a485a05aaa7120411db76afcd751
+SHA1: 9ef02c1a141417cc206f7c98e814832ab91d56ff
+MD5sum: 2f9fa6bb941155fbeb2cdd3d46421483
+Description: Linux kernel, version 6.12.40-qcom-nh
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.12.40-qcom-nh.
+
 Package: linux-image-6.6.58-sdm845-nh
 Source: linux-upstream
 Version: 6.6.58-2
@@ -154,7 +191,7 @@ Description: Linux kernel, version 6.9.0-sm7325
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.12
+Version: 6.12.40-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
 Installed-Size: 7058
@@ -163,11 +200,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12_arm64.deb
-Size: 1371448
-SHA256: 8e223face2c8c6ba9dc5622051c420a3125f87945cdf4117b73cb5282e8a7001
-SHA1: 72a2f325bf33abce3fbdd0e79b84f66904623f6c
-MD5sum: 38c869e4e04343c085da9c420af4d329
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12.40-1_arm64.deb
+Size: 1371508
+SHA256: e87aa29ce311efb86d70571e1edaa7db3fd83dd4ec60973e967dcee2dcf026a0
+SHA1: 935a094b1039964664c7481e095f9b64a791c5f9
+MD5sum: ee0cbb6e5f02e87d2d614f7ad1ff7839
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
@@ -182,9 +219,9 @@ Priority: optional
 Section: x11
 Filename: pool/main/m/megapixels-config-pinephonepro/megapixels-config-pinephonepro_1.0.0_all.deb
 Size: 1364
-SHA256: 8770a485d26ee1d69928a7c421f02db12d72d9f90de9c9f0a9ce4bb4a16f33c0
-SHA1: b4d6aba29e434b820c41f62312b7e2794f468b6b
-MD5sum: 61315cf5592f5f8f5392a58d1efbc86a
+SHA256: e4b958215c5148f5a8b20f23aba56af40febd7f2e1cf1859661316f013bec655
+SHA1: f32c802f24873401349a55630ee72784e535b9ce
+MD5sum: 7cc6470ea9c98a3b8cba5b10b4bea6fc
 Description: Unofficial PinePhone Pro's config for megapixels.
 
 Package: nethunter
@@ -232,22 +269,22 @@ MD5sum: 11f74d188440a71610dc9e81fbd428b0
 Description: An nmap front-end for Linux Phones.
 
 Package: qcom-support
-Version: 1.3.2
+Version: 1.3.3
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
-Depends: linux-image-6.12.37-qcom, qcom-support-common
+Depends: linux-image-6.12.40-qcom-nh, qcom-support-common
 Breaks: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
 Replaces: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
 Provides: sdm845-support, sm7225-support
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/qcom-support_1.3.2_all.deb
-Size: 2952
-SHA256: 2b9a24f2dbec3d714b1096f0640325040992d4e644ffd65c70c654c823226dc5
-SHA1: 9bfc5f353f4fee600eb08b3ad2ed3b52fc9f7220
-MD5sum: 941e18ea2202ed8fee756015e888184d
+Filename: pool/main/q/qcom-support/qcom-support_1.3.3_all.deb
+Size: 2840
+SHA256: b8f6a441aa380a22ba2dafda4477ee2afd2142eba92481477b05c76ae022b7da
+SHA1: 299dd393101ad37a37de9c15a95dd28c20268234
+MD5sum: 313492fe274247feeebb5503d631dff9
 Description: Hardware support packages for Qualcomm-based devices
  This metapackage pulls in all packages needed to run on devices based
  on the Qualcomm SoC's currently supported in Mobian. This package
@@ -284,9 +321,9 @@ Priority: optional
 Section: metapackages
 Filename: pool/main/q/qcom-support/sm7325-support_1.0.0_all.deb
 Size: 868
-SHA256: 2915171c461e00e598ad3e596bc5a45054d881ab234dfc466833bae779b0b8a1
-SHA1: 81a613e6b971c8846b4e3c530a0a9ff986fde120
-MD5sum: 428be53da7009383e6293061af56f11b
+SHA256: 0e44515e884d4b8ac5c15dd2e528a35ae1786f7c7cc99efb76db09ad3ac46019
+SHA1: f4c7414d68508f1d0dcbb5abb3d3421f50c185e6
+MD5sum: 9d902ed9ab93b5a814237dbb2b053ed6
 Description: Hardware support packages for SM7325 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SM7325 SoC.
