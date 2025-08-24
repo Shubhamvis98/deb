@@ -84,15 +84,15 @@ Source: linux-upstream
 Version: 6.16.0-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 51970
+Installed-Size: 51800
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.16.0-sm7325_6.16.0-1_arm64.deb
-Size: 8645972
-SHA256: 6cd506d1d467127f3fa3abc560e37a9d1c29df1863cb90dfd5dd2d95e5b22344
-SHA1: e99dbfdc16f1ce73097c51e654a71d10f7ff2cf8
-MD5sum: e6669598a51f7c11a02573977fe74f63
+Size: 8625024
+SHA256: ff50734d951b3cb9e2b6a0bd4f7c84d23974a8160df6e789dcf05e9f98215b78
+SHA1: 93ac400b0fc305d72ad01997502b86976b029179
+MD5sum: fd03badb6aa4ee1fd4d4d507cc0c6dca
 Description: Linux kernel headers for 6.16.0-sm7325 on arm64
  This package provides kernel header files for 6.16.0-sm7325 on arm64
  .
@@ -177,15 +177,15 @@ Source: linux-upstream
 Version: 6.16.0-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 68569
+Installed-Size: 41896
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.16.0-sm7325_6.16.0-1_arm64.deb
-Size: 16155372
-SHA256: 147365b3f2c8ec940456b03cf926731d59c6b7be4ed286cc15c97daddf3954ba
-SHA1: 52fa42116b0ef063f4119b6fb94e01aea9e28cf2
-MD5sum: eb158eefa5b9af966ae1b4d54abc46a0
+Size: 11043976
+SHA256: 197a55e0bf79b1be0deacf4a53c30ae710c3736a3279af8813669852f11502b8
+SHA1: e465a89da50422ddaea4126fde110ee8af1528d6
+MD5sum: 0cd37cf2007f5b55f39747b9df83c668
 Description: Linux kernel, version 6.16.0-sm7325
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.16.0-sm7325.
@@ -195,15 +195,15 @@ Source: linux-upstream
 Version: 6.16.0-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 225940
+Installed-Size: 108565
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: debug
 Filename: pool/main/l/linux-upstream/linux-image-6.16.0-sm7325-dbg_6.16.0-1_arm64.deb
-Size: 49662792
-SHA256: 92ed404dc5af2c99dcaa1d9fbff7188c38ba710b8607ccd31589e7fdea6dc493
-SHA1: 5afabb9c07957cbc113bb13980344b5d0767f648
-MD5sum: 02d3f1ba1728a44899212086ae88faa1
+Size: 31073300
+SHA256: bc2fac25c185a91b3487e79ae420e165b720eef7e417931bc9158516bc9171ab
+SHA1: f6fc272d7ae48bb035851ea3948b0fbff774f97f
+MD5sum: ea8b9fae45c7cdd42e31d9ec084e8124
 Description: Linux kernel debugging symbols for 6.16.0-sm7325
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
@@ -256,10 +256,10 @@ Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
 Filename: pool/main/l/linux-upstream/linux-libc-dev_6.16.0-1_arm64.deb
-Size: 1417084
-SHA256: 9e12ed07bb7b03274630abc4a794834acecf57d2165835451b7cdb071f256155
-SHA1: 902e44d9533c87852765ed29832d48b6604cc85d
-MD5sum: a070b4e6d4ac09a52a4b8c44c0962c4a
+Size: 1416992
+SHA256: ec76b3718803416d8d84d5c277382be85003514272875cbeb50efa35d0ea6f29
+SHA1: f707db1a63fb52307fcf87f6ffef71eaaabfa2b1
+MD5sum: 74a667e0777879d4a0fd799cecc46d2e
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
