@@ -280,21 +280,22 @@ MD5sum: 3d2af5376a4981ead506c27d1be2201c
 Description: Unofficial PinePhone Pro's config for megapixels.
 
 Package: nethunter
-Version: 1.9.1
+Version: 1.9.2
 Architecture: all
-Maintainer: Shubham Vishwakarma <ShubhamVis98>
-Installed-Size: 152
+Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
+Installed-Size: 126
 Depends: python3, python3-bluez, python3-psutil, macchanger, mdk4, gir1.2-notify-0.7
-Homepage: https://www.fossfrog.in/
+Homepage: https://fossfrog.in
 Priority: optional
 Section: net
-Filename: pool/main/n/nethunter/nethunter_1.9.1_all.deb
-Size: 18912
-SHA256: ceaaa04de5ccb6364051840bc321fcb4c45c8cef259231f6f1f3b26cfaaf3044
-SHA1: 14875409af0a3c8726bd441bc782082d72dcf8a4
-MD5sum: b00598c02e7b38a6ecffab47394fd72e
-Description: An unofficial clone of Android's NetHunter app
- for GNU/Linux Operating Systems and Phones. Initially built
+Filename: pool/main/n/nethunter/nethunter_1.9.2_all.deb
+Size: 19976
+SHA256: 6232a91d1719b53cee34fd7d0e6e2b2d159ea0e0fac7ba7e80e3b1318a9a8e7b
+SHA1: 5c947f4935d40c3f1e0ad7cec14d204f70e34ec6
+MD5sum: eb1fa8fc7968c60327920ea230c677c9
+Description: NetHunter app for Linux Phones
+ A clone of Android's NetHunter app for GNU/Linux
+ Operating Systems and Phones. Initially built
  for PinePhone.
  .
  Features Implemented:
