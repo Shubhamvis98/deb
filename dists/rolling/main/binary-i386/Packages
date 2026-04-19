@@ -102,46 +102,43 @@ MD5sum: 11f74d188440a71610dc9e81fbd428b0
 Description: An nmap front-end for Linux Phones.
 
 Package: qcom-support
-Version: 1.3.3
-Source: qcom-support
+Version: 1.3.5
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
-Depends: linux-image-6.12.40-qcom-nh, qcom-support-common
-Breaks: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
-Replaces: sdm845-support (<< 0.3.0~), sm7225-support (<< 0.3.0~)
-Provides: sdm845-support, sm7225-support
+Depends: sdm845-support (>= 0.3.3~)
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/qcom-support_1.3.3_all.deb
-Size: 2848
-SHA256: 89b3e220d4bc8b02d29597db26916d89a6cf89dfe1b3ce588e02357ee2539559
-SHA1: 3f4416992d5cab93448c3df373a85bc4a82d6d91
-MD5sum: 808bf71516c49c3bc4580568aa019b8e
-Description: Hardware support packages for Qualcomm-based devices
- This metapackage pulls in all packages needed to run on devices based
- on the Qualcomm SoC's currently supported in Mobian. This package
- contains NetHunter Kernel for NetHunter Pro.
+Filename: pool/main/q/qcom-support/qcom-support_1.3.5_all.deb
+Size: 3116
+SHA256: 440489721e2e6b8e963550a6c05e70efbbcfc9f8b0a38454199a0e617f4b1313
+SHA1: 217f83f9bd7ace108b5ff7fc31681f1015774a50
+MD5sum: d81d76b8fc49bf13c1e2cff7151b10cb
+Description: Hardware support for Qualcomm devices - transitional package
+ This is a transitional package. It can safely be removed.
 
 Package: sdm845-support
 Source: qcom-support
-Version: 1.2.5
+Version: 1.3.5
 Architecture: all
-Maintainer: Shubham Vishwakarma <shubhamvis98@nethunter.com>
-Installed-Size: 9
-Depends: linux-image-6.6.58-sdm845-nh, qcom-support-common
-Homepage: https://fossfrog.in
+Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
+Installed-Size: 10
+Depends: linux-image-6.12.82-sdm845-nh, qcom-support-common
+Breaks: qcom-support (<< 0.3.3~)
+Replaces: qcom-support (<< 0.3.3~)
+Provides: qcom-support
+Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sdm845-support_1.2.5_all.deb
-Size: 872
-SHA256: c7c16ac3b2953e90d3bf21f9b193658196465f2fc7726d49fb9c0a578bccabea
-SHA1: c9c5ba295176b706d08d79c5008109830753bb45
-MD5sum: dd7cfae18225f4ee8385f97219e2d363
-Description: Hardware support packages for SDM845 devices with nethunter kernel.
+Filename: pool/main/q/qcom-support/sdm845-support_1.3.5_all.deb
+Size: 3204
+SHA256: 50d57ab07e642b1161361aef063f4728dd7702fb8b449c698ec79370e8b48b9d
+SHA1: 304543cc871fbc9c3ac120aed7b8f2258b2a2571
+MD5sum: 0c61ff8105773f82aa84fe024ceaa551
+Description: Hardware support for SDM845 devices
  This metapackage pulls in all packages needed to run on devices based
- on the SDM845 SoC.
+ on the Qualcomm SoC Snapdragon 845 (SDM845).
 
 Package: sm7325-support
 Version: 1.0.1
