@@ -5,7 +5,7 @@ Origin: fossfrog
 Label: fossfrog
 Suite: fossfrog
 Codename: rolling
-Date: Thu, 04 Jun 2026 15:45:34 UTC
+Date: Sun, 07 Jun 2026 17:46:47 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: fossfrog's repo for nethunter pro
@@ -13,8 +13,8 @@ MD5Sum:
  b4a709e79bf9bd20aa73a6075ce6530c 10488 main/binary-amd64/Packages
  ead95e18bf013eb76c270c18504b6253 3321 main/binary-amd64/Packages.gz
  321c5e67303bfa897dbc629487e6cc94 134 main/binary-amd64/Release
- 0518d44739ae84c147a7dab83ac9df99 21160 main/binary-arm64/Packages
- 0554a13f042a4cf3ded72941eb92f9ce 5714 main/binary-arm64/Packages.gz
+ 811d97397734fc01dfffb6a9ba6015cb 21160 main/binary-arm64/Packages
+ 35d4d994fd99bde45298eeb4b5e93710 5706 main/binary-arm64/Packages.gz
  a093771361d67cbe5ddddbc97d558391 134 main/binary-arm64/Release
  b4a709e79bf9bd20aa73a6075ce6530c 10488 main/binary-i386/Packages
  ead95e18bf013eb76c270c18504b6253 3321 main/binary-i386/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  9f721f1638bcfa114b7b7e5a3b26b2517ce76cff 10488 main/binary-amd64/Packages
  62b79245cec2db95f7126ab91197929bc6475464 3321 main/binary-amd64/Packages.gz
  39e70d2632e03f4d48751699cf42df3b0a74bf93 134 main/binary-amd64/Release
- 35801f421c387b685b093be27825e9302d0f7e8c 21160 main/binary-arm64/Packages
- d9d448937079ec521a47b3784f0861cf58ed3229 5714 main/binary-arm64/Packages.gz
+ e81ed429a56894e9e74848c685b754d791b91bb7 21160 main/binary-arm64/Packages
+ 9d43bc90deb66668351baa863bd6ebc3dc903868 5706 main/binary-arm64/Packages.gz
  2573c4a694075ec1243aa640027a61bbdc4b312d 134 main/binary-arm64/Release
  9f721f1638bcfa114b7b7e5a3b26b2517ce76cff 10488 main/binary-i386/Packages
  62b79245cec2db95f7126ab91197929bc6475464 3321 main/binary-i386/Packages.gz
@@ -39,8 +39,8 @@ SHA256:
  25c8b352bcef665eb4c14abb99e32623e41c68492945aa018987710c67b9636c 10488 main/binary-amd64/Packages
  f36db57346f365e1e1febf8c0edb0805510eaf79d0faa8a25563de5082602c80 3321 main/binary-amd64/Packages.gz
  5726b450d0c47dab9cc77de1ec890e43e74e6bdff0c56580219653733b59a4f1 134 main/binary-amd64/Release
- 5334d939d4cb096e032c8e9720db8ac7c2f412b7597ce85499090f9a789e5c4f 21160 main/binary-arm64/Packages
- 7c56d0c2b27f939b753cd2e68ff8bb39bc2c2d2eb4af5f4538412db4bcc62caa 5714 main/binary-arm64/Packages.gz
+ ffe9f1deaccd990d508075189e0538fbc3663ff32d98969431d507db7bba0ae8 21160 main/binary-arm64/Packages
+ 426699946402e3b344954bc1715473b14d3dfb9f05dbe8e895f675ca49331866 5706 main/binary-arm64/Packages.gz
  1b1d4018a9f41367462b35d3313cfe7a6524ed8ba16974c0102d2eded03474a3 134 main/binary-arm64/Release
  25c8b352bcef665eb4c14abb99e32623e41c68492945aa018987710c67b9636c 10488 main/binary-i386/Packages
  f36db57346f365e1e1febf8c0edb0805510eaf79d0faa8a25563de5082602c80 3321 main/binary-i386/Packages.gz
@@ -50,15 +50,15 @@ SHA256:
  f542a2627ccdf14002cbe2013be84f5d50670f534296eb13edcba30dac7f5a36 134 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEC7I6STX3HZWc3PHGY1DsZ2Kc8xsFAmohnZ4ACgkQY1DsZ2Kc
-8xt85wv+PG0XeLimQgXUgJYaETXqOz4qCvMWNRpj1hsh35f+9/gZbbeLE/EISIlL
-GL3qjuFofLHi569fM4snWIk0vy4Yq+MbjjqT6hAzzUPmhH6uOOaz15qIv//SjwtD
-hd5ailZy9m3kpTQOhzOBEz2xwcPGRJeY0fGS44yv/E5JmcuwzWKMwf8X3G2AQz47
-l55KB/6tTQX09buByiwgPOzqoAlxH11mULhzbMX64GoynIMLyiq3cSOukudRFIGE
-zmKE9WwuPES8nPSmuH1elMZHThqICCgDbROGUQXPnfNf0TY6dJn90ujYtQ5HbIhc
-bLWkK5dzHAPA4E/n0Wa07fujJS0wgEWvWmwDaOiSgp/Vh28CSaTK4bJaQEcgcwM8
-OiUwuTKuTIq78S2/qagipFU/aYLlSZ1EYDHo4TXXgp2QJ9gXl+u8m95xTT7Xgr3X
-Nt0es2JN3ZYNiqRxwwYamvnMHAgsVu5REFoJDPj3Gr7iHBNcyfMxOq7NtwrSoQ42
-8b9G8Qct
-=DPKF
+iQGzBAEBCgAdFiEEC7I6STX3HZWc3PHGY1DsZ2Kc8xsFAmolrocACgkQY1DsZ2Kc
+8xv+OAv/f6vUoSvgAgm6ahZdXR9J0YjjWFHoMg0/2P8tHXR7Jx412AFDAfP9N0Uy
+x6MVFUrMMRl3OjOYCMkeOSwB3Q9N2cXKyAXQMI7xrNSI3z/YRoSXo0vKDTSrDW8s
+JV2L387u5ej799q/8GRtlfsEgfsZT0L3anfS8mJEZXJdwVPV5C0wc87vnYnO2frV
+DJnR/OucTH/6A5Cz+w86D9VahXsOo8Ga7pgI1yEtdeiGd0jMpdmYicyyrEJfHrBr
+uLjRQtcqNAyYyvGHn10jpmPwJBPg247mEYpt71dxTd8kzySCAFFo1iDrW0T5GZmL
+I+ZKUruxIzRUhZIi/CO0g9zVIu+Ispr+wS7d7/u6SSrasyKmTCiYZHyfqp0hargu
+9guHLzZP1A79vLxqrbjBnOgxD0U1l3rvM7ahl3E95tFY66OX35obAmrcd4VJMCoL
+hYvkarFr1JCBxuHlmYiPMC8/sch6d9b3PizPH0ePwK8WkMCwXnW9lqmA8nmacuoy
+4zcCHfJy
+=JSlC
 -----END PGP SIGNATURE-----

@@ -108,10 +108,10 @@ Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.12.92-sdm845-nh_6.12.92-1_arm64.deb
-Size: 8583536
-SHA256: 99d45e9a454cf9f6b8c098ecb9fe8755ad01d60cb60e0afcda194e1e84f0ea33
-SHA1: f4aaceabde4ebdaf4806ab8d393618b8b65d37e1
-MD5sum: b380c8156f2b30d928f43bb92d4a2bcc
+Size: 8583444
+SHA256: fd4d8b0dbbbf3f3b59f58601909348c9667fed7ac57e95eb1e507c9061221488
+SHA1: 96267ac83a5ee71f78b88b6abdd5562318f2dae0
+MD5sum: 79bff5e8d703b4ce4b5a43fee3520c6e
 Description: Linux kernel headers for 6.12.92-sdm845-nh on arm64
  This package provides kernel header files for 6.12.92-sdm845-nh on arm64
  .
@@ -233,15 +233,15 @@ Source: linux-upstream
 Version: 6.12.92-1
 Architecture: arm64
 Maintainer: root <root@fossfrog>
-Installed-Size: 63978
+Installed-Size: 63996
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.12.92-sdm845-nh_6.12.92-1_arm64.deb
-Size: 36731996
-SHA256: 32225a4403e63fd03e516f3c9bdf5bde3ad0f6004db93e6effcbf9480858abec
-SHA1: 1893ef1f40cadc20e50885294ccc3c9401aa265c
-MD5sum: 026aa45073ec7b301f67245f236f6e81
+Size: 36735296
+SHA256: 7547cc2ec44ceb5650957c37b92de01b90f91b13f5b96a6b5b0fb5d2908425ac
+SHA1: 2fbfdfc93bc46429502d36a9b212e80167841996
+MD5sum: 3114cc662f829976dba8353d55ea53bf
 Description: Linux kernel, version 6.12.92-sdm845-nh
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.92-sdm845-nh.
