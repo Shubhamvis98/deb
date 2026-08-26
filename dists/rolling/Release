@@ -2,7 +2,7 @@ Origin: fossfrog
 Label: fossfrog
 Suite: fossfrog
 Codename: rolling
-Date: Sun, 07 Jun 2026 17:46:47 UTC
+Date: Wed, 26 Aug 2026 17:36:42 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: fossfrog's repo for nethunter pro
