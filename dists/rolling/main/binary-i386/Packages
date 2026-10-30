@@ -102,7 +102,7 @@ MD5sum: 11f74d188440a71610dc9e81fbd428b0
 Description: An nmap front-end for Linux Phones.
 
 Package: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -110,17 +110,17 @@ Depends: sdm845-support (>= 0.3.3~)
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/qcom-support_1.3.6_all.deb
-Size: 3160
-SHA256: 7bcdb3f2ac3266625e829a890eb0a0fa0d1a9541087d5d7b4787e83561966806
-SHA1: 1885a6565c480f580677d2b9c40e943f937ba494
-MD5sum: 6d3a3467dba1f3412c1bf40b0d65b70f
+Filename: pool/main/q/qcom-support/qcom-support_1.3.7_all.deb
+Size: 2992
+SHA256: 20b28a820dcdc58c61c8f36b17dc4e01be62e7286efa772ea3c06ce07e836c1c
+SHA1: 66319554614ffa4285c21e311a71bcf2c06017c0
+MD5sum: 4022613040f80d66bfb37375f3f16eb8
 Description: Hardware support for Qualcomm devices - transitional package
  This is a transitional package. It can safely be removed.
 
 Package: qcom-support-common
 Source: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -128,18 +128,18 @@ Depends: droid-juicer, firmware-atheros, firmware-qcom-soc, libdrm-freedreno1, l
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/qcom-support-common_1.3.6_all.deb
-Size: 3320
-SHA256: 33c40f9f3d7931e20935e3875fdb26b7a88b3501252d876b3fb1366f754957b9
-SHA1: 0fc74e22a017114fd4d2ed65458ec879dc0c203e
-MD5sum: 440ce240f43ccef0b7e5a6c5cf04d268
+Filename: pool/main/q/qcom-support/qcom-support-common_1.3.7_all.deb
+Size: 3148
+SHA256: 7e271f77e94b2f037e387bcc9fcf8b2358a21f7a5d59a14146672dbc12229c1b
+SHA1: 8738da84c69502000da30d802d53deb10a9ae239
+MD5sum: b304911acf4359b855860678973420db
 Description: Hardware support packages for Qualcomm-based devices
  This metapackage pulls in all common packages needed to run on devices
  based on Qualcomm SoC's.
 
 Package: sc7280-support
 Source: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -147,18 +147,18 @@ Depends: linux-image-6.12-sc7280, qcom-support-common
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sc7280-support_1.3.6_all.deb
-Size: 3224
-SHA256: a0aefe59270b119e6c9e5fc4e58f27f022b0c0452225f555fe5b40864938240a
-SHA1: e5b5629ca47e4ee2ea8bb80a8e8577883ef75a13
-MD5sum: 4a0aa83a853b1fc6e173ae63875d01fe
+Filename: pool/main/q/qcom-support/sc7280-support_1.3.7_all.deb
+Size: 3052
+SHA256: 6bb6bec716df848ab152051975fc7fbb8686918176aa8ff20dee06cc7b6a5401
+SHA1: a627131d9d1689ea803c5c07fb1d2b59d7fea384
+MD5sum: 3b61e875bdbf77ee114cc7ea180d35fc
 Description: Hardware support for SC7280 devices
  This metapackage pulls in all common packages needed to run on qcom devices
  plus the specific kernel supporting devices equipped with SC7280 SoC.
 
 Package: sdm670-support
 Source: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -166,18 +166,18 @@ Depends: linux-image-6.12-sdm670, qcom-support-common
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sdm670-support_1.3.6_all.deb
-Size: 3220
-SHA256: 6674306352c99df687e681a3d02974a617b3a07133668c2aa9d59269b302cc56
-SHA1: 9aa40150699eda391940581c08b2290d249be6e4
-MD5sum: defc27a383ff69ada7e625516ef4a691
+Filename: pool/main/q/qcom-support/sdm670-support_1.3.7_all.deb
+Size: 3052
+SHA256: 11e425faad24ec0867e3371c3e9d593e5585d38b666c5ca32e49a48bad26a1eb
+SHA1: 86d9827369117b72ee5fd91b09ad3d6ec642d548
+MD5sum: abee590d2ed1a202cbe0e44fdadb27da
 Description: Hardware support for SDM670 devices
  This metapackage pulls in all common packages needed to run on qcom devices
  plus the specific kernel supporting devices equipped with SDM670 SoC.
 
 Package: sdm845-support
 Source: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -188,18 +188,18 @@ Provides: qcom-support
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sdm845-support_1.3.6_all.deb
-Size: 3252
-SHA256: fb5252b0cc3c2f12ac8a98a9583e04e235fba97468e65a7da6d00897596b617f
-SHA1: 252cfa22c3bc452fa5cae523aa5b01759d712072
-MD5sum: 9e70d4af5bbf50c7e35fb4e69e6985c5
+Filename: pool/main/q/qcom-support/sdm845-support_1.3.7_all.deb
+Size: 3076
+SHA256: f1c42d0b7121c6e382b0306d8b252b3eb4122877cfb559bd14a5e42a734bec55
+SHA1: a81ab241c8ed044ef54c5abda84d5f7d6221da8c
+MD5sum: 28ae1b2148ded6a59942dea760666a26
 Description: Hardware support for SDM845 devices
  This metapackage pulls in all packages needed to run on devices based
  on the Qualcomm SoC Snapdragon 845 (SDM845).
 
 Package: sm6350-support
 Source: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -210,11 +210,11 @@ Provides: sm7225-support
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sm6350-support_1.3.6_all.deb
-Size: 3260
-SHA256: 0abe4945e2bad41715d2855670edc988e64083f15dfaa4015a5b2c880367f837
-SHA1: 081cf8024f9dbf80e3e2fec9ab8f7f4d6ea28ee7
-MD5sum: cba4e9fc83c2ecd240de79b61852adbb
+Filename: pool/main/q/qcom-support/sm6350-support_1.3.7_all.deb
+Size: 3088
+SHA256: 0cfcf683b596495955317b604701799c91cee36133260377ed71386065b684d0
+SHA1: 0d1704aa54b566da9dc758acfb649ce4a69e6598
+MD5sum: f100492975fc57bdad4ebcc7e1e5f84c
 Description: Hardware support for SM6350 devices
  This metapackage pulls in all packages needed to run on devices
  supported through the kernel branch maintained by
@@ -222,7 +222,7 @@ Description: Hardware support for SM6350 devices
 
 Package: sm7150-support
 Source: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -230,11 +230,11 @@ Depends: linux-image-6.18-sm7150, qcom-support-common
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sm7150-support_1.3.6_all.deb
-Size: 3224
-SHA256: 6bb26ec3ed878a4b474e4d248aa49bff916c52681988bde55767abccf26787c4
-SHA1: 00bed86da729519f5f439e80e68ea1fe8b91bec4
-MD5sum: f6918c69e0b297ea5ba04390cb84fd79
+Filename: pool/main/q/qcom-support/sm7150-support_1.3.7_all.deb
+Size: 3052
+SHA256: 89a9dee71559f312e3a4d82f1b6b7bec93ecf80ea4027dcb81fb208c70c618fc
+SHA1: fd042107da9369665932e0bf04884dad4213a1fe
+MD5sum: d0594ba0dd933b050cbc21043f7e9d2c
 Description: Hardware support for SM7150 devices
  This metapackage pulls in all packages needed to run on devices
  supported through the kernel branch maintained by the
@@ -242,7 +242,7 @@ Description: Hardware support for SM7150 devices
 
 Package: sm7225-support
 Source: qcom-support
-Version: 1.3.6
+Version: 1.3.7
 Architecture: all
 Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
 Installed-Size: 10
@@ -250,11 +250,11 @@ Depends: sm6350-support
 Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
 Priority: optional
 Section: metapackages
-Filename: pool/main/q/qcom-support/sm7225-support_1.3.6_all.deb
-Size: 3160
-SHA256: 4208ed304fc8d65f6ee35df05bbef34c9b4fbf7f140d643860f58d68f19f2d14
-SHA1: 4b12771038ed374a732e43220d411a3f51c80a4a
-MD5sum: d487bf24613d945c42ce5bf6aff482a4
+Filename: pool/main/q/qcom-support/sm7225-support_1.3.7_all.deb
+Size: 2996
+SHA256: 22fc9469704669542d59cd54749f5d84da6493ea295a8abd9027878f368afa25
+SHA1: 0a835957dcf21271fb118d59a93cde6122787a4c
+MD5sum: 33d716aa592b60e644dc9aee0884d113
 Description: Hardware support for SM7225 devices - transitional package
  This is a transitional package. It can safely be removed.
 
@@ -276,4 +276,23 @@ MD5sum: 838551f861b5143e20c17ef4ffbb8337
 Description: Hardware support packages for SM7325 devices with nethunter kernel.
  This metapackage pulls in all packages needed to run on devices based
  on the SM7325 SoC.
+
+Package: sm8350-support
+Source: qcom-support
+Version: 1.3.7
+Architecture: all
+Maintainer: Shubham Vishwakarma <shubhamvis98@fossfrog.in>
+Installed-Size: 10
+Depends: linux-image-6.18.57-sm8350, qcom-support-common
+Homepage: https://salsa.debian.org/Mobian-team/devices/qcom-support
+Priority: optional
+Section: metapackages
+Filename: pool/main/q/qcom-support/sm8350-support_1.3.7_all.deb
+Size: 3052
+SHA256: 2263d84d3903b113ef8553260fba972426b0d5c0e6a0c88a25dba084833a3745
+SHA1: 537c364a86c97807ffbdbd8eb35ef472a6326f46
+MD5sum: 1159a55d1abb91a85ba55d208bc17679
+Description: Hardware support for SM8350 devices
+ This metapackage pulls in all common packages needed to run on qcom devices
+ plus the specific kernel supporting devices equipped with SM8350 SoC.
 
